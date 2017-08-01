@@ -1,18 +1,32 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
-<div class="home">
+{% include head.html %}
 
-  {{ content }}
+<body>
 
-  <ul class="post-list">
-    {% for page in site.pages %}
-      {% if page.title %}
-        <li>
-          <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+           <section>
+               works
+           </section>
+            <section>
+                <span>{{ page.frase_1 }}</span>
+                <span>{{ page.frase_2 }}</span>
+                <span>{{ page.clients_excerpt }}</span>
+                <span style="display:none">{{ page.clients_all }}</span>
+                <button>+Clients</button>
+            </section>
+            <section>
+                <a href="/about">+ About Luca Toniolo</a>
+            </section>
+        </div>
+    </main>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

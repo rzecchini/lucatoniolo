@@ -1,6 +1,14 @@
 <header class="site-header" role="banner">
-
-  <div class="wrapper">
-
-  </div>
+    <div class="wrapper">
+        <ul class="post-list">
+            <li><a href="{{ "/" | relative_url }}">logo</a></li>
+            {% for page in site.pages %}
+                {% if page.title %}
+                <li>
+                    <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
 </header>

@@ -3,4 +3,11 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+frase_1: Studio Luca Toniolo
+frase_2: Architecture Interiors Research
+clients_excerpt: Black Ties Sofas, Carhartt, Mini, Max Mara, Flos, Wooden,
+clients_all: Unaltro, eQuesto
 ---
+
+csduicidus
+Studio Luca Toniolo Architecture Interiors Research Black Ties Sofas, Carhartt, Mini, Max Mara, Flos, Wooden, + Clients
