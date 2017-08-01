@@ -53,3 +53,15 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  -
+    scope:
+     path: ""
+     type: "works"
+    values:
+      layout: "default"
+
+# Collections
+collections:
+  works:
+    output: true
+    permalink: /:collection/:name

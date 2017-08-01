@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+
+        {% for work in site.works %}
+            {% if work.title %}
+                <a class="post-link" href="{{ work.url | relative_url }}">{{ work.title | escape }}</a>
+            {% endif %}
+        {% endfor %}
+
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
