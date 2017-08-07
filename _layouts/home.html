@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
+    {% include head.html %}
+    
+    <body>
+        {% include header.html %}
 
-{% include head.html %}
+        <main class="page-content" aria-label="Content">
+            <section class="works">
+                {% for work in site.works %}
+                    {% if work.title %}
+                        {% include work.html url=work.url title=work.title category=work.category %}
+                    {% endif %}
+                {% endfor %}
+            </section>
 
-<body>
-
-    {% include header.html %}
-
-    <main class="page-content" aria-label="Content">
-        <div class="wrapper">
-           <section>
-               works
-           </section>
-            <section>
+            <section class="hello">
                 <span>{{ page.frase_1 }}</span>
                 <span>{{ page.frase_2 }}</span>
                 <span>{{ page.clients_excerpt }}</span>
                 <span style="display:none">{{ page.clients_all }}</span>
                 <button>+Clients</button>
             </section>
+
             <section>
                 <a href="/about">+ About Luca Toniolo</a>
             </section>
-        </div>
-    </main>
+        </main>
 
-    {% include footer.html %}
-
-</body>
-
+        {% include footer.html %}
+    </body>
 </html>

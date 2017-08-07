@@ -1,14 +1,14 @@
 <header class="site-header" role="banner">
-    <div class="wrapper">
-        <ul class="post-list">
-            <li><a href="{{ "/" | relative_url }}">logo</a></li>
-            {% for page in site.pages %}
-                {% if page.title %}
-                <li>
-                    <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-                </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
+    <a href="{{ "/" | relative_url }}">
+        <svg width="16" height="32" viewBox="0 0 16 32" xmlns="http://www.w3.org/2000/svg"><path d="M0 8.664V32l16-21.585-.06-5.355L5.87 17.023 5.786 0" fill="#111" fill-rule="evenodd"/></svg>
+    </a>
+    <ul class="site-header__menu">
+        {% for page in site.pages %}
+            {% if page.title %}
+            <li class="site-header__item">
+                <a class="site-header__link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
 </header>
