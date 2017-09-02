@@ -1,4 +1,7 @@
-<a class="work" href="{{ include.url | relative_url }}">
+
+{% assign isIndex = include.index || false %}
+
+<a class="work {% if isIndex %} work--index {% endif %}" href="{{ include.url | relative_url }}">
     <div class="work__image"></div>
     <h3 class="work__title">{{ include.title | escape }}</h3>
     <h4 class="work__category">{{ include.category | escape }}</h4>

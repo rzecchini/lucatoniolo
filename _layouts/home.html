@@ -15,15 +15,15 @@
             </section>
 
             <section class="hello">
-                <span>{{ page.frase_1 }}</span>
-                <span>{{ page.frase_2 }}</span>
-                <span>{{ page.clients_excerpt }}</span>
-                <span style="display:none">{{ page.clients_all }}</span>
-                <button>+Clients</button>
+                <span class="hello__frase-1">{{ page.frase_1 }}</span>
+                <span class="hello__frase-2">{{ page.frase_2 }}</span>
+                <span class="hello__clients-excerpt">{{ page.clients_excerpt }}</span>
+                <span class="hello__clients-all js-clients-all" style="display:none">{{ page.clients_all }}</span>
+                <button class="hello__btn js-clients-btn">+ Clients</button>
             </section>
 
-            <section>
-                <a href="/about">+ About Luca Toniolo</a>
+            <section class="about js-about">
+                <a class="about__link" href="/about">+ About Luca Toniolo</a>
             </section>
         </main>
 

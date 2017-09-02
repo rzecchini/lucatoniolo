@@ -5,8 +5,8 @@
 layout: home
 frase_1: Studio Luca Toniolo
 frase_2: Architecture Interiors Research
-clients_excerpt: Black Ties Sofas, Carhartt, Mini, Max Mara, Flos, Wooden,
-clients_all: Unaltro, eQuesto
+clients_excerpt: Black Ties Sofas, Carhartt (Caputo), Mini, (GC) Le Roy Merlin, Max Mara, Flos,
+clients_all: Marimekko ( Stiletto Ny), Wooden, Paper, CLM, Olev, Aereoporti di Roma (Cr2000), Covert (Mauro Grifoni)
 ---
 
 csduicidus

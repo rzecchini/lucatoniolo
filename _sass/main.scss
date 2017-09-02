@@ -24,6 +24,8 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+$large: 1000px;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
@@ -32,7 +34,7 @@ $on-laptop:        800px !default;
 //   }
 // }
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
+  @media screen and (min-width: $device) {
     @content;
   }
 }
@@ -46,9 +48,11 @@ $on-laptop:        800px !default;
 @import 'base';
 
 
+
 .wrapper {
   padding: 0 1rem;
 }
+
 
 
 .site-header {
@@ -84,21 +88,86 @@ $on-laptop:        800px !default;
   text-transform: uppercase;
 }
 
+.site-header__link--active {
+  text-decoration: underline;
+}
+
+
+
+
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 .hello {
+  max-width: 38rem;
+  margin: auto;
   padding: 1rem;
   font-size: 1.75rem; /*28px*/
+  
+  @include media-query($large) {
+    order: 1;
+    padding: 3rem 3rem 1rem;
+    text-align: center;
+  }
+}
+
+.hello__frase-2 {
+  font-weight: 700;
+}
+
+.hello__btn {
+  display: block;
+  -webkit-appearance: none;
+  border: none;
+  color: $grey-color;
+  background: none;
+  font-family: $base-font-family;
+  outline: 0;
+  
+  @include media-query($large) {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 
 
 .works {
   padding: 1rem;
+  
+  @include media-query($large) {
+    order: 2;
+    display: flex;
+  }
+}
+
+.works--index {
+  display: flex;
 }
 
 .work {
   display: block;
   margin-bottom: 2rem;
+  
+  @include media-query($large) {
+    flex: 0 0 48%;
+    padding: 1%;
+  }
+}
+
+.work--index {
+  flex: 0 0 48%;
+  padding: 1%;
+  
+  @include media-query($large) {
+    flex: 0 0 24%;
+    //padding: 1%;
+  }
 }
 
 .work__image {
@@ -121,6 +190,50 @@ $on-laptop:        800px !default;
   font-weight: 400;
 }
 
+
+
+.about {
+  padding: 1rem 1rem 3rem;
+  font-size: 1.75rem; /*28px*/
+  
+  @include media-query($large) {
+    order: 3;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+}
+
+.about__link {
+  color: $grey-color;
+}
+
+
+
+
+
+.site-footer {
+  padding: 2rem 0;
+  background: #111;
+  color: #fff;
+}
+
+.site-footer__content {
+  display: flex;
+}
+
+.site-footer__logo {
+  margin-right: 2rem;
+}
+
+.site-footer__section {
+  &:first-child {
+    margin-bottom: 1rem;
+  }
+}
+
+.site-footer__label {
+  margin: 0;
+}
 
 
 
