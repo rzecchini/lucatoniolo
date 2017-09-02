@@ -1,7 +1,7 @@
 ---
 title: Wooden
 category: Interior
-poster: /assets/wooden.jpg
+poster: /lucatoniolo/assets/wooden.jpg
 ---
 
 Bella Wooden...

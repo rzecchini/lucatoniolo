@@ -1,7 +1,7 @@
 ---
 title: Flos
 category: Architecture
-poster: /assets/flos.jpg
+poster: /lucatoniolo/assets/flos.jpg
 ---
 
 questo lavoro per flos fatto a...
