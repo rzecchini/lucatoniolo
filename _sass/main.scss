@@ -148,6 +148,7 @@ $large: 1000px;
 
 .works--index {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .work {
@@ -173,7 +174,10 @@ $large: 1000px;
 .work__image {
   padding-bottom: 100%;
   margin-bottom: 0.5rem;
-  background: #ddd;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .work__title {
@@ -205,6 +209,14 @@ $large: 1000px;
 
 .about__link {
   color: $grey-color;
+}
+
+
+// template page
+.about-page .page-content {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.25rem;
 }
 
 

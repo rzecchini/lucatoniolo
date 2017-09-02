@@ -9,7 +9,7 @@
       <section class="works works--index">
         {% for work in site.works %}
             {% if work.title %}
-                {% include work.html url=work.url title=work.title category=work.category index=true %}
+                {% include work.html url=work.url title=work.title category=work.category poster=work.poster index=true %}
             {% endif %}
         {% endfor %}
       </section>
