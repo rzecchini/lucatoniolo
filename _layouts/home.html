@@ -6,16 +6,32 @@
         {% include header.html %}
 
         <main class="page-content" aria-label="Content">
-            <section class="works">
+            <!--<section class="works">
                 {% for work in site.works %}
                     {% if work.title %}
-                        {% if forloop.index < 3 %}
+                        {% if forloop.index < 5 %}
                           {% include work.html url=work.url title=work.title category=work.category poster=work.poster %}
                         {% endif %}
                     {% endif %}
                 {% endfor %}
+            </section>-->
+            
+            <section class="works">
+                <div class="Wallop">
+                  <div class="Wallop-list">
+                  {% for work in site.works %}
+                      {% if work.title %}
+                          {% if forloop.index < 5 %}
+                            <div class="Wallop-item">
+                            {% include work.html url=work.url title=work.title category=work.category poster=work.poster %}
+                            </div>
+                          {% endif %}
+                      {% endif %}
+                  {% endfor %}
+                  </div>
+                </div>
             </section>
-
+          
             <section class="hello">
                 <span class="hello__frase-1">{{ page.frase_1 }}</span>
                 <span class="hello__frase-2">{{ page.frase_2 }}</span>
