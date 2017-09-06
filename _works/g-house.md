@@ -1,7 +1,7 @@
 ---
 title: G House
 category: Architecture
-poster: /lucatoniolo/assets/house.jpg
+poster: /assets/house.jpg
 ---
 
 questa casa è g-house ecc...
