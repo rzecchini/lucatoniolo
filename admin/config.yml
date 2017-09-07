@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: rzecchini/lucatoniolo # Path to your Github repository
+  branch: master # Branch to update
+
+media_folder: "assets/uploads" # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: "works" # Used in routes, e.g., /admin/collections/blog
+    label: "Works" # Used in the UI
+    folder: "_works" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Poster", name: "poster", widget: "image"}
