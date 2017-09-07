@@ -16,7 +16,10 @@
  */
 .Wallop {
   position: relative;
-  width: 33.333%;
+  
+  @include media-query($large) {
+    width: 33.333%; 
+  }
 }
 
 /*
