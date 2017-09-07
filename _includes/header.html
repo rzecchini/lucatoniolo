@@ -1,0 +1,18 @@
+<header class="site-header" role="banner">
+    <div class="site-header__flex container">
+      <a href="{{ "/" | relative_url }}">
+          <svg width="16" height="32" viewBox="0 0 16 32" xmlns="http://www.w3.org/2000/svg"><path d="M0 8.664V32l16-21.585-.06-5.355L5.87 17.023 5.786 0" fill="#111" fill-rule="evenodd"/></svg>
+      </a>
+      <ul class="site-header__menu">
+          {% assign current = page.url | downcase | split: '/' %}
+          {% for page in site.pages %}
+              {% assign page_url = page.url | downcase | split: '/' %}
+              {% if page.title %}
+              <li class="site-header__item">
+                  <a class="site-header__link{% if page_url == current %} site-header__link--active{% endif %}" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+              </li>
+              {% endif %}
+          {% endfor %}
+      </ul>
+    </div>
+</header>

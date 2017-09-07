@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+    {% include head.html %}
+    
+    <body>
+        {% include header.html %}
+
+        <main class="page-content" aria-label="Content">
+            <!--<section class="works">
+                {% for work in site.works %}
+                    {% if work.title %}
+                        {% if forloop.index < 5 %}
+                          {% include work.html url=work.url title=work.title category=work.category poster=work.poster %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </section>-->
+            
+            <section class="works">
+                <div class="Wallop">
+                  <div class="Wallop-list">
+                  {% for work in site.works %}
+                      {% if work.title %}
+                          {% if forloop.index < 5 %}
+                            <div class="Wallop-item">
+                            {% include work.html url=work.url title=work.title category=work.category poster=work.poster %}
+                            </div>
+                          {% endif %}
+                      {% endif %}
+                  {% endfor %}
+                  </div>
+                </div>
+            </section>
+          
+            <section class="hello">
+                <span class="hello__frase-1">{{ page.frase_1 }}</span>
+                <span class="hello__frase-2">{{ page.frase_2 }}</span>
+                <span class="hello__clients-excerpt">{{ page.clients_excerpt }}</span>
+                <span class="hello__clients-all js-clients-all" style="display:none">{{ page.clients_all }}</span>
+                <button class="hello__btn js-clients-btn">+ Clients</button>
+            </section>
+
+            <section class="about js-about">
+                <a class="about__link" href="{{ '/about' | relative_url }}">+ About Luca Toniolo</a>
+            </section>
+        </main>
+
+        {% include footer.html %}
+    </body>
+</html>

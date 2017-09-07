@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="32px" viewBox="0 0 16 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-16.000000, -8.000000)" fill="#111111">
+            <g id="header">
+                <polygon id="Path" points="16 16.6636657 16 40 32 18.4145699 31.9406471 13.0598164 21.8682819 25.0228066 21.7857443 8"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

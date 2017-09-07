@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: "Karla", sans-serif;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #111 !default;
+$background-color: #fdfdfd !default;
+$brand-color:      #2a7ae2 !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+$large: 1000px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import 'normalize';
+@import 'base';
+@import 'wallop';
+
+
+/* Layout
+ *=======================================*/
+.container {
+  max-width: 72rem;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+
+/* Header
+ *=======================================*/
+.site-header {
+  padding: 0.5rem 0;
+}
+
+.site-header__flex {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__logo {
+  display: block;
+  flex: 0 0 auto;
+}
+
+.site-header__menu {
+  flex: 1 auto;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  list-style: none;
+}
+
+.site-header__item {
+  display: inline-block;
+  margin-right: 1.25rem;
+  
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.site-header__link {
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+}
+
+.site-header__link--active {
+  text-decoration: underline;
+}
+
+
+/* Page content
+ *=======================================*/
+.page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Hello
+ *=======================================*/
+.hello {
+  max-width: 38rem;
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.75rem; /*28px*/
+  
+  @include media-query($large) {
+    order: 1;
+    padding: 3rem 3rem 1rem;
+    max-width: 48rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+.hello__frase-2 {
+  font-weight: 700;
+}
+
+.hello__btn {
+  display: block;
+  -webkit-appearance: none;
+  border: none;
+  color: $grey-color;
+  background: none;
+  font-family: $base-font-family;
+  outline: 0;
+  
+  @include media-query($large) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+/* Works
+ *=======================================*/
+.works {
+  padding: 1rem;
+  
+  @include media-query($large) {
+    order: 2;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.works--index {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* Single work card
+ *=======================================*/
+.work {
+  display: block;
+  
+  @include media-query($large) {
+    //flex: 0 0 33.333%;
+  }
+}
+
+.work--index {
+  flex: 0 0 48%;
+  padding: 1%;
+  margin-bottom: 1rem;
+  
+  @include media-query($large) {
+    flex: 0 0 24%;
+    //padding: 1%;
+  }
+}
+
+.work__image {
+  padding-bottom: 100%;
+  margin-bottom: 0.5rem;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.work__title {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.work__category {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+
+/* About
+ *=======================================*/
+.about {
+  padding: 1rem 1rem 3rem;
+  font-size: 1.75rem; /*28px*/
+  
+  @include media-query($large) {
+    order: 3;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+}
+
+.about__link {
+  color: $grey-color;
+}
+
+// template page
+.about-page .page-content {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.25rem;
+}
+
+
+/* Footer
+ *=======================================*/
+.site-footer {
+  padding: 2rem 0;
+  background: #111;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.site-footer__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-footer__logo {
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+.site-footer__info {
+//  @include media-query($large) {
+//    display: flex;
+//  } 
+}
+
+.site-footer__section {
+  &:first-child {
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+  }
+}
+
+.site-footer__label {
+  margin: 0;
+}
+
+
+
+
+
+
