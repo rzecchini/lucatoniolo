@@ -15,4 +15,5 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
-      - {label: "Poster", name: "poster", widget: "image"}
+      - {label: "Cover", name: "poster", widget: "image"}
+      - {label: "Text", name: "body", widget: "markdown"}
