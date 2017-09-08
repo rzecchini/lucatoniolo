@@ -30,9 +30,9 @@
                     {% for client in sorted_clients %}
                         {% if forloop.index < 5 %}
                             {% if client.work_link %}
-                                    <a href="{{ client.work_link | relative_url }}">{{ client.title }}</a>
+                                    <a href="{{ client.work_link | relative_url }}">{{ client.title }}</a>,
                                 {% else %}
-                                    {{ client.title }}
+                                    {{ client.title }},
                             {% endif %}
                         {% endif %}
                     {% endfor %}
@@ -41,9 +41,9 @@
                     {% for client in sorted_clients %}
                         {% if forloop.index >= 5 %}
                             {% if client.work_link %}
-                                    <a href="{{ client.work_link | relative_url }}">{{ client.title }}</a>
+                                    <a href="{{ client.work_link | relative_url }}">{{ client.title }}</a>{% if forloop.last != true %},{% endif %}
                                 {% else %}
-                                    {{ client.title }}
+                                    {{ client.title }}{% if forloop.last != true %},{% endif %}
                             {% endif %}
                         {% endif %}
                     {% endfor %}
