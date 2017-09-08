@@ -102,9 +102,9 @@ $large: 62.5rem; /* 1000px */
 }
 
 
-/* Page content
+/* Home content
  *=======================================*/
-.page-content {
+.home-content {
   display: flex;
   flex-direction: column;
 }
@@ -139,6 +139,10 @@ $large: 62.5rem; /* 1000px */
   font-size: inherit;
 }
 
+.hello__client-link {
+  text-decoration: underline;
+}
+
 .hello__btn {
   display: block;
   -webkit-appearance: none;
@@ -147,6 +151,7 @@ $large: 62.5rem; /* 1000px */
   background: none;
   font-family: $base-font-family;
   outline: 0;
+  cursor: pointer;
 
   @include media-query($large) {
     width: 100%;

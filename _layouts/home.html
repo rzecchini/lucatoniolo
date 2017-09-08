@@ -5,7 +5,7 @@
     <body>
         {% include header.html %}
 
-        <main class="page-content" aria-label="Content">
+        <main class="home-content" aria-label="Content">
             <section class="works">
                 <div class="Wallop">
                   <div class="Wallop-list">
@@ -29,8 +29,8 @@
                     {% assign sorted_clients = site.clients | sort: 'priority' %}
                     {% for client in sorted_clients %}
                         {% if forloop.index < 5 %}
-                            {% if client.work_link %}
-                                    <a href="{{ client.work_link | relative_url }}">{{ client.title }}</a>,
+                            {% if client.work_link and client.work_link != '' %}
+                                    <a class="hello__client-link" href="{{ client.work_link | relative_url }}">{{ client.title }}</a>,
                                 {% else %}
                                     {{ client.title }},
                             {% endif %}
@@ -40,8 +40,8 @@
                 <span class="hello__clients-all js-clients-all" style="display:none">
                     {% for client in sorted_clients %}
                         {% if forloop.index >= 5 %}
-                            {% if client.work_link %}
-                                    <a href="{{ client.work_link | relative_url }}">{{ client.title }}</a>{% if forloop.last != true %},{% endif %}
+                            {% if client.work_link and client.work_link != '' %}
+                                    <a class="hello__client-link" href="{{ client.work_link | relative_url }}">{{ client.title }}</a>{% if forloop.last != true %},{% endif %}
                                 {% else %}
                                     {{ client.title }}{% if forloop.last != true %},{% endif %}
                             {% endif %}
