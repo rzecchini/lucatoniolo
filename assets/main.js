@@ -39,7 +39,7 @@ var wallopEl = document.querySelector('.Wallop');
 if (wallopEl) {
   var slider = new Wallop(wallopEl);
   window.setInterval(function() {
-    //slider.next()
+    slider.next()
   }, 1500)
 }
 

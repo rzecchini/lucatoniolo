@@ -127,8 +127,16 @@ $large: 62.5rem; /* 1000px */
   }
 }
 
-.hello__frase-2 {
+.hello__title {
+  display: inline;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.hello__sub {
+  display: inline;
   font-weight: 700;
+  font-size: inherit;
 }
 
 .hello__btn {

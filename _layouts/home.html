@@ -26,10 +26,11 @@
             </section>
 
             <section class="hello">
-                <span class="hello__frase-1">{{ page.frase_1 }}</span>
-                <span class="hello__frase-2">{{ page.frase_2 }}</span>
+                <h1 class="hello__title">Studio Luca Toniolo</h1>
+                <h2 class="hello__sub">Architecture Interiors Research</h2>
                 <span class="hello__clients-excerpt">
-                    {% for client in site.clients %}
+                    {% assign sorted_clients = site.clients | sort: 'priority' %}
+                    {% for client in sorted_clients %}
                         {% if forloop.index < 2 %}
                             {% if client.work_link %}
                                     <a href="{{ client.work_link | relative_url }}">{{ client.title }}</a>
@@ -40,7 +41,7 @@
                     {% endfor %}
                 </span>
                 <span class="hello__clients-all js-clients-all" style="display:none">
-                    {% for client in site.clients %}
+                    {% for client in sorted_clients %}
                         {% if forloop.index >= 2 %}
                             {% if client.work_link %}
                                     <a href="{{ client.work_link | relative_url }}">{{ client.title }}</a>

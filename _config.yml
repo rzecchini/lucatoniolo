@@ -62,3 +62,9 @@ defaults:
       type: "works"
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "clients"
+    values:
+      priority: 1
