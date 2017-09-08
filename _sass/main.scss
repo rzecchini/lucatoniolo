@@ -58,6 +58,20 @@ $large: 62.5rem; /* 1000px */
   margin: auto;
 }
 
+/* Home layout */
+.home-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Default layout */
+.default-content {
+  //max-width: 600px;
+  //margin: auto;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
 
 /* Header
  *=======================================*/
@@ -102,18 +116,10 @@ $large: 62.5rem; /* 1000px */
 }
 
 
-/* Home content
- *=======================================*/
-.home-content {
-  display: flex;
-  flex-direction: column;
-}
-
-
 /* Hello
  *=======================================*/
 .hello {
-  max-width: 38rem;
+  //max-width: 38rem;
   margin: auto;
   padding: 1rem;
   font-size: 1.5rem;
@@ -201,6 +207,7 @@ $large: 62.5rem; /* 1000px */
 }
 
 .work__image {
+  display: block;
   max-width: 100%
 }
 
@@ -238,20 +245,11 @@ $large: 62.5rem; /* 1000px */
   color: $grey-color;
 }
 
-// template page
-.about-page .page-content {
-  max-width: 600px;
-  margin: auto;
-  font-size: 1.25rem;
-}
-
 
 /* Footer
  *=======================================*/
 .site-footer {
   padding: 2rem 0;
-  //background: #111;
-  //color: #fff;
   line-height: 1.2;
 }
 
