@@ -26,7 +26,7 @@ collections:
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
       - {label: "Cover", name: "poster", widget: "image"}
-      - {label: "Text", name: "body", widget: "markdown"}
+      - {label: "Text", name: "body", widget: "markdown", required: false}
 
   - name: "clients" # Used in routes, e.g., /admin/collections/blog
     label: "Clients" # Used in the UI
@@ -36,4 +36,4 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Priority", name: "priority", widget: "number"}
-      - {label: "Work link", name: "work_link", widget: "string"}
+      - {label: "Work link", name: "work_link", widget: "string", required: false}
