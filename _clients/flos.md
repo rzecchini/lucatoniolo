@@ -1,5 +1,6 @@
 ---
 title: Flos
-priority: 2
+priority: '6'
 work_link: /works/flos
 ---
+
