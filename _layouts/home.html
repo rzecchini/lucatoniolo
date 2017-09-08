@@ -6,9 +6,6 @@
         {% include header.html %}
 
         <main class="page-content" aria-label="Content">
-
-
-
             <section class="works">
                 <div class="Wallop">
                   <div class="Wallop-list">
@@ -31,7 +28,7 @@
                 <span class="hello__clients-excerpt">
                     {% assign sorted_clients = site.clients | sort: 'priority' %}
                     {% for client in sorted_clients %}
-                        {% if forloop.index < 2 %}
+                        {% if forloop.index < 5 %}
                             {% if client.work_link %}
                                     <a href="{{ client.work_link | relative_url }}">{{ client.title }}</a>
                                 {% else %}
@@ -42,7 +39,7 @@
                 </span>
                 <span class="hello__clients-all js-clients-all" style="display:none">
                     {% for client in sorted_clients %}
-                        {% if forloop.index >= 2 %}
+                        {% if forloop.index >= 5 %}
                             {% if client.work_link %}
                                     <a href="{{ client.work_link | relative_url }}">{{ client.title }}</a>
                                 {% else %}
