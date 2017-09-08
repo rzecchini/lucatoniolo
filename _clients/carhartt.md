@@ -1,4 +1,4 @@
 ---
 title: Carhartt (Caputo)
-priority: 2
+priority: '2'
 ---

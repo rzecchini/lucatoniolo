@@ -1,4 +1,4 @@
 ---
 title: Black Ties Sofas
-priority: 1
+priority: '1'
 ---

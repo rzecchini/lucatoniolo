@@ -1,4 +1,4 @@
 ---
 title: Mini
-priority: 3
+priority: '3'
 ---
