@@ -6,6 +6,16 @@ backend:
 media_folder: "assets/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    folder: "_pages" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", default: "default"}
+      - {label: "Text", name: "body", widget: "markdown"}
+
   - name: "works" # Used in routes, e.g., /admin/collections/blog
     label: "Works" # Used in the UI
     folder: "_works" # The path to the folder where the documents are stored
@@ -17,3 +27,12 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
       - {label: "Cover", name: "poster", widget: "image"}
       - {label: "Text", name: "body", widget: "markdown"}
+
+  - name: "clients" # Used in routes, e.g., /admin/collections/blog
+    label: "Clients" # Used in the UI
+    folder: "_clients" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Work link", name: "work_link", widget: "string"}
