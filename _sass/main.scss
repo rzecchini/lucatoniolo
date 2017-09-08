@@ -24,7 +24,8 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
-$large: 1000px;
+$medium: 37.5rem; /* 600px */
+$large: 62.5rem; /* 1000px */
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -85,7 +86,7 @@ $large: 1000px;
 .site-header__item {
   display: inline-block;
   margin-right: 1.25rem;
-  
+
   &:last-child {
     margin-right: 0;
   }
@@ -115,13 +116,13 @@ $large: 1000px;
   max-width: 38rem;
   margin: auto;
   padding: 1rem;
-  font-size: 1.75rem; /*28px*/
-  
+  font-size: 1.5rem;
+
   @include media-query($large) {
     order: 1;
     padding: 3rem 3rem 1rem;
     max-width: 48rem;
-    font-size: 2rem;
+    //font-size: 2rem;
     text-align: center;
   }
 }
@@ -138,7 +139,7 @@ $large: 1000px;
   background: none;
   font-family: $base-font-family;
   outline: 0;
-  
+
   @include media-query($large) {
     width: 100%;
     text-align: center;
@@ -150,7 +151,7 @@ $large: 1000px;
  *=======================================*/
 .works {
   padding: 1rem;
-  
+
   @include media-query($large) {
     order: 2;
     display: flex;
@@ -161,6 +162,7 @@ $large: 1000px;
 .works--index {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 
@@ -168,7 +170,7 @@ $large: 1000px;
  *=======================================*/
 .work {
   display: block;
-  
+
   @include media-query($large) {
     //flex: 0 0 33.333%;
   }
@@ -178,23 +180,19 @@ $large: 1000px;
   flex: 0 0 48%;
   padding: 1%;
   margin-bottom: 1rem;
-  
+
   @include media-query($large) {
-    flex: 0 0 24%;
+    flex: 0 0 23%;
     //padding: 1%;
   }
 }
 
 .work__image {
-  padding-bottom: 100%;
-  margin-bottom: 0.5rem;
-  background-color: #ddd;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  max-width: 100%
 }
 
 .work__title {
+  display: inline-block;
   margin: 0;
   padding: 0;
   font-size: 0.8125rem;
@@ -202,6 +200,7 @@ $large: 1000px;
 }
 
 .work__category {
+  display: inline-block;
   margin: 0;
   padding: 0;
   font-size: 0.8125rem;
@@ -213,8 +212,8 @@ $large: 1000px;
  *=======================================*/
 .about {
   padding: 1rem 1rem 3rem;
-  font-size: 1.75rem; /*28px*/
-  
+  font-size: 1.5rem;
+
   @include media-query($large) {
     order: 3;
     padding-bottom: 5rem;
@@ -238,14 +237,15 @@ $large: 1000px;
  *=======================================*/
 .site-footer {
   padding: 2rem 0;
-  background: #111;
-  color: #fff;
+  //background: #111;
+  //color: #fff;
   line-height: 1.2;
 }
 
 .site-footer__content {
   display: flex;
   flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .site-footer__logo {
@@ -253,16 +253,14 @@ $large: 1000px;
   margin-right: 3rem;
 }
 
-.site-footer__info {
-//  @include media-query($large) {
-//    display: flex;
-//  } 
+.site-footer__studio {
+  margin-bottom: 1rem;
+  margin-right: 3rem;
 }
 
-.site-footer__section {
-  &:first-child {
-    margin-bottom: 1rem;
-    margin-right: 3rem;
+.site-footer__contacts {
+  @include media-query($medium) {
+    text-align: right;
   }
 }
 

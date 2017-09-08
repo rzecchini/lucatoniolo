@@ -14,7 +14,7 @@
  * Main Js
  *
  */
-var clientBtn = document.querySelector('.js-clients-btn'), 
+var clientBtn = document.querySelector('.js-clients-btn'),
     clientAll = document.querySelector('.js-clients-all'),
     isClientsOpen = false;
     //aboutSection = document.querySelector('.js-about');
@@ -32,14 +32,17 @@ if ( clientBtn != null ) {
       isClientsOpen = false;
     }
 
-  }); 
+  });
 }
 
 var wallopEl = document.querySelector('.Wallop');
-var slider = new Wallop(wallopEl);
-window.setInterval(function() {
-  slider.next()
-}, 1500)
+if (wallopEl) {
+  var slider = new Wallop(wallopEl);
+  window.setInterval(function() {
+    //slider.next()
+  }, 1500)
+}
+
 
 
 

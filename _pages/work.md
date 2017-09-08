@@ -1,7 +1,7 @@
 ---
-layout: works
-title: Work
-permalink: /work/
+layout: grid
+title: Works
+permalink: /works/
 ---
 
 
