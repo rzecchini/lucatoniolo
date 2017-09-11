@@ -9,17 +9,28 @@
             <section class="works">
                 <div class="Wallop">
                   <div class="Wallop-list">
-                  {% for work in site.works %}
-                      {% if work.title %}
-                          {% if forloop.index < 5 %}
-                            <div class="Wallop-item">
-                            {% include work.html url=work.url title=work.title category=work.category poster=work.poster %}
-                            </div>
-                          {% endif %}
+                    {% for work in site.works %}
+                      {% if work.title and work.home %}
+                        <div class="Wallop-item">
+                          {% include work.html url=work.url title=work.title category=work.category poster=work.poster %}
+                        </div>
                       {% endif %}
-                  {% endfor %}
+                    {% endfor %}
                   </div>
                 </div>
+                
+                <a class="works__link" href="{{ '/works' | relative_url }}">+ works</a>
+            </section>
+            
+            <section class="all-works">
+              {% assign see_works = 0 %}
+              {% for work in site.works %}
+                {% if work.home == false see_works < 2 %}
+                  <div class="all-works__item" style="background-image:url('{{ work.poster }}')"></div>
+                  {% assign see_works = see_works | plus: 1 %}
+                {% endif %}
+              {% endfor %}
+              <a class="all-works__label" href="#"><span>See all works</span></a>
             </section>
 
             <section class="hello">
@@ -48,10 +59,10 @@
                         {% endif %}
                     {% endfor %}
                 </span>
-                <button class="hello__btn js-clients-btn">+ Clients</button>
+                <button class="hello__btn js-clients-btn">+ clients</button>
             </section>
 
-            <section class="about js-about">
+            <section class="about">
                 <a class="about__link" href="{{ '/about' | relative_url }}">+ About Luca Toniolo</a>
             </section>
         </main>

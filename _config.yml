@@ -62,6 +62,7 @@ defaults:
       type: "works"
     values:
       layout: "default"
+      home: false
   -
     scope:
       path: ""
