@@ -25,7 +25,7 @@
             <section class="all-works">
               {% assign see_works = 0 %}
               {% for work in site.works %}
-                {% if work.home == false see_works < 2 %}
+                {% if work.home == false and see_works < 2 %}
                   <div class="all-works__item" style="background-image:url('{{ work.poster }}')"></div>
                   {% assign see_works = see_works | plus: 1 %}
                 {% endif %}
