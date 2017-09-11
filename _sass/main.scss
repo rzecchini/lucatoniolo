@@ -170,6 +170,7 @@ $large: 62.5rem; /* 1000px */
  *=======================================*/
 .works {
   padding: 1rem;
+  margin-bottom: 1rem;
 
   @include media-query($large) {
     order: 2;
@@ -200,6 +201,7 @@ $large: 62.5rem; /* 1000px */
 
 .all-works {
   position: relative;
+  margin-bottom: 1rem;
   
   @include media-query($large) {
     display: none;
@@ -260,7 +262,8 @@ $large: 62.5rem; /* 1000px */
 
 .work__image {
   display: block;
-  max-width: 100%
+  max-width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .work__title {
