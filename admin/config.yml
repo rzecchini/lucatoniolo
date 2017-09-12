@@ -27,7 +27,12 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
       - {label: "Cover", name: "poster", widget: "image"}
       - {label: "Home", name: "home", widget: "boolean", default: false}
-      - {label: "Images", name: "images", widget: "markdown", required: false}
+      - label: "Images"
+        name: "images"
+        required: false
+        widget: "list"
+        fields:
+        - {label: "Picture", name: "picture", widget: "image"}
       - {label: "Text", name: "body", widget: "markdown", required: false}
 
   - name: "clients" # Used in routes, e.g., /admin/collections/blog
