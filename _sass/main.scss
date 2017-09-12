@@ -311,7 +311,7 @@ $large: 62.5rem; /* 1000px */
     max-height: 80vh;
 
     @include media-query($large) {
-        max-height: auto;
+        max-height: none;
     }
 }
 
