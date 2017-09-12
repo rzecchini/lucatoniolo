@@ -72,6 +72,9 @@ $large: 62.5rem; /* 1000px */
   text-align: center;
 }
 
+.padding {
+    padding: 1rem;
+}
 
 /* Header
  *=======================================*/
@@ -169,7 +172,6 @@ $large: 62.5rem; /* 1000px */
 /* Works
  *=======================================*/
 .works {
-  padding: 1rem;
   margin-bottom: 1rem;
 
   @include media-query($large) {
@@ -193,7 +195,7 @@ $large: 62.5rem; /* 1000px */
   color: $grey-color;
   font-size: 1.5rem;
   text-align: center;
-  
+
   @include media-query($large) {
     display: block;
   }
@@ -202,7 +204,7 @@ $large: 62.5rem; /* 1000px */
 .all-works {
   position: relative;
   margin-bottom: 1rem;
-  
+
   @include media-query($large) {
     display: none;
   }
@@ -280,6 +282,37 @@ $large: 62.5rem; /* 1000px */
   padding: 0;
   font-size: 0.8125rem;
   font-weight: 400;
+}
+
+
+/* About
+ *=======================================*/
+.page__pics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.page__pic {
+    flex: 1 0 100%;
+    margin-bottom: 1rem;
+
+    &:nth-child(even) {
+        margin-right: 0;
+    }
+
+    @include media-query($large) {
+        flex-basis: 46%;
+        margin: 2% 2% 2% 0;
+    }
+}
+
+.page__pic img {
+    max-height: 80vh;
+
+    @include media-query($large) {
+        max-height: auto;
+    }
 }
 
 

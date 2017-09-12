@@ -6,7 +6,7 @@
         {% include header.html %}
 
         <main class="home-content" aria-label="Content">
-            <section class="works">
+            <section class="works padding">
                 <div class="Wallop">
                   <div class="Wallop-list">
                     {% for work in site.works %}
@@ -18,10 +18,10 @@
                     {% endfor %}
                   </div>
                 </div>
-                
+
                 <a class="works__link" href="{{ '/works' | relative_url }}">+ works</a>
             </section>
-            
+
             <section class="all-works">
               {% assign see_works = 0 %}
               {% for work in site.works %}
@@ -30,7 +30,7 @@
                   {% assign see_works = see_works | plus: 1 %}
                 {% endif %}
               {% endfor %}
-              <a class="all-works__label" href="#"><span>See all works</span></a>
+              <a class="all-works__label" href="{{ '/works' | relative_url }}"><span>See all works</span></a>
             </section>
 
             <section class="hello">

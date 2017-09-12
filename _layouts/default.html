@@ -9,15 +9,37 @@
 
     <main class="default-content" aria-label="Content">
       <div class="container">
-        {% if page.images %}
-            {{ page.images }}
-        {% endif %}
+        <div class="page">
+            {% if page.title %}
+                <h1 class="page__title">{{ page.title }}</h1>
+            {% endif %}
 
-        {% if page.text %}
-            {{ page.text }}
-        {% endif %}
+            {% if page.category %}
+                <h3 class="page__title">{{ page.category }}</h3>
+            {% endif %}
 
-        {{ content }}
+            {% if page.images %}
+                <div class="page__pics">
+                    {% for item in page.images %}
+                        <div class="page__pic">
+                            <img src="{{item.picture}}" alt="">
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            {{ content }}
+        </div>
+
+        <h4>Latest works</h4>
+
+        <section class="works works--index">
+          {% for work in site.works %}
+              {% if work.title %}
+                  {% include work.html url=work.url title=work.title category=work.category poster=work.poster index=true %}
+              {% endif %}
+          {% endfor %}
+        </section>
       </div>
     </main>
 
