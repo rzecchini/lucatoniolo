@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang='{{ page.lang | default: site.lang | default: "en" }}'>
 
   {% include head.html %}
 
@@ -9,6 +9,14 @@
 
     <main class="default-content" aria-label="Content">
       <div class="container">
+        {% if page.images %}
+            {{ page.images }}
+        {% endif %}
+
+        {% if page.text %}
+            {{ page.text }}
+        {% endif %}
+
         {{ content }}
       </div>
     </main>
