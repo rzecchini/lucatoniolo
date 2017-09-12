@@ -26,7 +26,7 @@ collections:
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
       - {label: "Cover", name: "poster", widget: "image"}
-      - {label: "Home", name: "home", widget: "boolean", default: false}
+      - {label: "Home", name: "home", widget: "boolean", default: false, required: false}
       - label: "Images"
         name: "images"
         required: false
