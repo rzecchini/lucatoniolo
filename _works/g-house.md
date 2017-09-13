@@ -1,6 +1,6 @@
 ---
-title: G House
-category: Architecture
+title: N House
+category: architecture/interior
 poster: /assets/uploads/interno1-910x1280.jpg
 home: true
 images:
@@ -28,6 +28,7 @@ Selected on-line press
 Archello
 
 Divisare
+
 
 
 
