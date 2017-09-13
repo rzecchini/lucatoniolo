@@ -1,10 +1,10 @@
 ---
 title: G House
 category: Architecture
-poster: /assets/uploads/detail .jpg
+poster: /assets/uploads/interno1-910x1280.jpg
 home: true
 images:
-  - {}
+  - picture: /assets/uploads/detail .jpg
   - picture: /assets/uploads/dettaglio scala.jpg
   - picture: /assets/uploads/esterno 1.jpg
   - picture: /assets/uploads/garage.jpg
@@ -28,3 +28,4 @@ Selected on-line press
 Archello
 
 Divisare
+
