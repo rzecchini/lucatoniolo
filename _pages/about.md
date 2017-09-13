@@ -1,7 +1,7 @@
 ---
+layout: default
 permalink: /about/
 title: ' '
-layout: default
 ---
 Luca Toniolo, Thiene 1985 <br>
 Architecture, Interiors and Research <br>
@@ -17,7 +17,5 @@ Laboratorio Graffe, Studio Testo, Daniel Sansavini, Mango Peaches and Lime
 
 for all inquiries: <br> info(at)lucatoniolo(dot)com <br> \+39 3407909049
 
- <br>
+<br>
 [Work in progress here](#)
-
-< br > vuol dire “manda a capo”
