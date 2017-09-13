@@ -1,7 +1,8 @@
 ---
-title: Flos
-priority: f
+title: Stefanie Barth & Carina Frey
+priority: d
 work_link: /works/flos
 ---
+
 
 
