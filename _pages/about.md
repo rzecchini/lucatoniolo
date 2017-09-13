@@ -1,7 +1,7 @@
 ---
+permalink: /about/
 title: ' '
 layout: default
-permalink: /about/
 ---
 Luca Toniolo, Thiene 1985 <br>
 **Architecture, Interiors and Research** <br>
