@@ -1,10 +1,10 @@
 ---
+layout: default
 permalink: /about/
 title: ' '
-layout: default
 ---
 Luca Toniolo, Thiene 1985 <br>
-**Architecture, Interiors and Research** <br>
+Architecture, Interiors and Research <br>
 Co-Founder of Riviera <br>
 
 ### Selected Clients:
