@@ -1,7 +1,7 @@
 ---
+title: ' ABOUT'
 layout: default
 permalink: /about/
-title: ' '
 ---
 Luca Toniolo, Thiene 1985 <br>
 Architecture, Interiors and Research <br>
@@ -19,3 +19,4 @@ for all inquiries: <br> info(at)lucatoniolo(dot)com <br> \+39 3407909049
 
 <br>
 [Work in progress here](#)
+
