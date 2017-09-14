@@ -1,6 +1,6 @@
 ---
 title: G House
-category: architecture / interior
+category: architecture/interior
 layout: default
 poster: /assets/uploads/interno1-910x1280 cover.jpg
 home: true
@@ -30,3 +30,4 @@ Selected on-line press
 Archello
 
 Divisare
+
