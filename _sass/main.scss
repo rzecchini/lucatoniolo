@@ -285,8 +285,12 @@ $large: 62.5rem; /* 1000px */
 }
 
 
-/* About
+/* Page
  *=======================================*/
+.page {
+    margin-bottom: 6rem;
+}
+
 .page__pics {
     display: flex;
     flex-wrap: wrap;

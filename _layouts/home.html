@@ -36,29 +36,31 @@
             <section class="hello">
                 <h1 class="hello__title">Studio Luca Toniolo</h1>
                 <h2 class="hello__sub">Architecture Interiors Research</h2>
-                <span class="hello__clients-excerpt">
-                    {% assign sorted_clients = site.clients | sort: 'priority' %}
-                    {% for client in sorted_clients %}
-                        {% if forloop.index < 5 %}
-                            {% if client.work_link and client.work_link != '' %}
-                                    <a class="hello__client-link" href="{{ client.work_link | relative_url }}">{{ client.title }}</a>,
-                                {% else %}
-                                    {{ client.title }},
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                </span>
-                <span class="hello__clients-all js-clients-all" style="display:none">
-                    {% for client in sorted_clients %}
-                        {% if forloop.index >= 5 %}
-                            {% if client.work_link and client.work_link != '' %}
-                                    <a class="hello__client-link" href="{{ client.work_link | relative_url }}">{{ client.title }}</a>{% if forloop.last != true %},{% endif %}
-                                {% else %}
-                                    {{ client.title }}{% if forloop.last != true %},{% endif %}
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                </span>
+                <div>
+                  <span class="hello__clients-excerpt">
+                      {% assign sorted_clients = site.clients | sort: 'priority' %}
+                      {% for client in sorted_clients %}
+                          {% if forloop.index < 5 %}
+                              {% if client.work_link and client.work_link != '' %}
+                                      <a class="hello__client-link" href="{{ client.work_link | relative_url }}">{{ client.title }}</a>,
+                                  {% else %}
+                                      {{ client.title }},
+                              {% endif %}
+                          {% endif %}
+                      {% endfor %}
+                  </span>
+                  <span class="hello__clients-all js-clients-all" style="display:none">
+                      {% for client in sorted_clients %}
+                          {% if forloop.index >= 5 %}
+                              {% if client.work_link and client.work_link != '' %}
+                                      <a class="hello__client-link" href="{{ client.work_link | relative_url }}">{{ client.title }}</a>{% if forloop.last != true %},{% endif %}
+                                  {% else %}
+                                      {{ client.title }}{% if forloop.last != true %},{% endif %}
+                              {% endif %}
+                          {% endif %}
+                      {% endfor %}
+                  </span>
+                </div>
                 <button class="hello__btn js-clients-btn">+ clients</button>
             </section>
 
