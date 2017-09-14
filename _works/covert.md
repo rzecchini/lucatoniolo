@@ -19,3 +19,4 @@ Client: Covert – Mauro Grofoni
 Place: Milano (Mi)
 
 Setting up of the showroom for the fashion week.
+
