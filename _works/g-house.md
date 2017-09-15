@@ -5,13 +5,13 @@ layout: default
 poster: /assets/uploads/interno1-910x1280 cover.jpg
 home: true
 images:
-  - picture: /assets/uploads/9.jpg
-  - picture: /assets/uploads/1.jpg
-  - picture: /assets/uploads/2.jpg
-  - picture: /assets/uploads/16.jpg
-  - picture: /assets/uploads/17.JPG
-  - picture: /assets/uploads/8.jpg
-  - {}
+  - picture: /assets/uploads/interno1-910x1280 cover rigo.jpg
+  - picture: /assets/uploads/ghouse5.jpg
+  - picture: /assets/uploads/ghouse 9.jpg
+  - picture: /assets/uploads/ghouse10.jpg
+  - picture: /assets/uploads/G House_1.JPG
+  - picture: /assets/uploads/ghouse11.jpg
+  - picture: /assets/uploads/ghouse_3.jpg
 ---
 Project: Luca Toniolo
 
@@ -30,4 +30,5 @@ Selected on-line press
 Archello
 
 Divisare
+
 
