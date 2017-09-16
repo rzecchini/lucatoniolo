@@ -1,7 +1,7 @@
 ---
+permalink: /about/
 title: ' ABOUT'
 layout: default
-permalink: /about/
 ---
 Luca Toniolo, Thiene 1985 <br>
 Architecture, Interiors and Research <br>
@@ -18,5 +18,4 @@ Laboratorio Graffe, Studio Testo, Daniel Sansavini, Mango Peaches and Lime
 for all inquiries: <br> info(at)lucatoniolo(dot)com <br> \+39 3407909049
 
 <br>
-[Work in progress here](#)
-
+[Work in progress here](https://www.instagram.com/luca_toniolo_/)
