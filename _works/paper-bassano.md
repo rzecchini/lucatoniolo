@@ -12,6 +12,9 @@ images:
   - picture: /assets/uploads/PAPERbassanocop.jpg
   - picture: /assets/uploads/paperbassano esterno.jpg
   - picture: /assets/uploads/paper bassano mood.jpg
+  - picture: /assets/uploads/PAPER BASSANO DETAIL4.jpg
+  - picture: /assets/uploads/paper bassano detail.jpg
+  - picture: /assets/uploads/Schermata 2017-09-19 alle 22.17.29.png
 ---
 Project: Luca Toniolo
 
@@ -20,4 +23,5 @@ Year: 2015
 Client: Paper
 
 Place: Bassano del Grappa
+
 
