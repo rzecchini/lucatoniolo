@@ -5,12 +5,16 @@ layout: default
 poster: /assets/uploads/interno1-910x1280.jpg
 home: true
 images:
-  - picture: /assets/uploads/detail .jpg
-  - picture: /assets/uploads/esterno 2.jpg
-  - picture: /assets/uploads/scala-finestra-887x1280.jpg
+  - picture: /assets/uploads/n house dettaglio scala.jpg
+  - picture: /assets/uploads/n house garage.jpg
+  - picture: /assets/uploads/n house interno.jpg
+  - picture: /assets/uploads/n house detail .jpg
+  - picture: /assets/uploads/n house scala-finestra-887x1280.jpg
+  - picture: /assets/uploads/n house handle.jpg
   - picture: /assets/uploads/IMG_5413.jpg
-  - picture: /assets/uploads/esterno 1.jpg
-  - picture: /assets/uploads/dettaglio scala.jpg
+  - picture: /assets/uploads/n house interno1-910x1280.jpg
+  - picture: /assets/uploads/n house esterno 1.jpg
+  - picture: /assets/uploads/n house esterno 2.jpg
 ---
 Project: Luca Toniolo
 
@@ -27,3 +31,4 @@ Selected on-line press
 Archello
 
 Divisare
+
