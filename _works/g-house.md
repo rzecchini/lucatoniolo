@@ -12,6 +12,8 @@ images:
   - picture: /assets/uploads/G House_1.JPG
   - picture: /assets/uploads/ghouse11.jpg
   - picture: /assets/uploads/ghouse_3.jpg
+  - picture: /assets/uploads/G House 2 .jpg
+  - picture: /assets/uploads/ghoues6.jpg
 ---
 Project: Luca Toniolo
 
@@ -30,5 +32,6 @@ Selected on-line press
 Archello
 
 Divisare
+
 
 
