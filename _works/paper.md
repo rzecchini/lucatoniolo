@@ -11,6 +11,7 @@ images:
   - picture: /assets/uploads/Paper_ferrara_7.jpg
   - picture: /assets/uploads/Paper ferrara_6.jpg
   - picture: /assets/uploads/Paper ferrara 8.jpg
+  - picture: /assets/uploads/Paper ferrara_copertina.jpg
 ---
 Project: Luca Toniolo
 
@@ -19,4 +20,5 @@ Year: 2016-2017
 Client: Paper
 
 Place: Verona, Ferrara, Riccione, Fano
+
 
