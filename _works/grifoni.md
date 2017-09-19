@@ -1,6 +1,6 @@
 ---
 title: Grifoni
-category: interior
+category: interior/retail
 layout: default
 poster: /assets/uploads/copertina mauro grifoni.jpg
 home: true
@@ -21,4 +21,5 @@ Year: 2017
 Client: Grifoni
 
 Place: Milano ( Mi )
+
 
