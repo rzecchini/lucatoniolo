@@ -3,7 +3,7 @@ title: RIviera
 category: installation
 layout: default
 poster: /assets/uploads/Riviera 1cop.jpg
-home: true
+home: false
 images:
   - picture: /assets/uploads/Riviera 1.jpg
   - picture: /assets/uploads/Riviera 2.jpg
@@ -34,3 +34,4 @@ Type: Industrial Design
 Year: 2015
 
 [https://soundcloud.com/rivieralab/riviera-lab](https://soundcloud.com/rivieralab/riviera-lab)
+
