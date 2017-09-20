@@ -186,6 +186,7 @@ $large: 62.5rem; /* 1000px */
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin-right: -1rem;
 }
 
 .works__link {
@@ -252,13 +253,12 @@ $large: 62.5rem; /* 1000px */
 }
 
 .work--index {
-  flex: 0 0 48%;
-  padding: 1%;
+  flex: 0 0 50%;
+  padding-right: 1rem;
   margin-bottom: 1rem;
 
   @include media-query($large) {
-    flex: 0 0 23%;
-    //padding: 1%;
+    flex: 0 0 25%;
   }
 }
 
@@ -315,7 +315,7 @@ $large: 62.5rem; /* 1000px */
     max-height: 80vh;
 
     @include media-query($large) {
-        max-height: none;
+        max-height: 100vh;
     }
 }
 
