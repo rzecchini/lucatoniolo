@@ -1,8 +1,9 @@
 ---
 title: Paper
 priority: g
-work_link: ''
+work_link: /works/paper
 ---
+
 
 
 
