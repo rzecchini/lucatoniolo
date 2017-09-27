@@ -1,7 +1,7 @@
 ---
+layout: default
 permalink: /about/
 title: ' ABOUT'
-layout: default
 ---
 Luca Toniolo, Thiene 1985 <br>
 Architecture, Interiors and Research <br>
@@ -15,7 +15,7 @@ Mauro Grifoni, Flos, Covert, Stefanie Barth & Carina Frey, Wooden, Paper, CLM, O
 
 Laboratorio Graffe, Studio Testo, Daniel Sansavini, Mango Peaches and Lime
 
-for all inquiries: <br> info(at)lucatoniolo(dot)com <br> \+39 3407909049
+for all inquiries: <br> info(at)lucatoniolo(dot)com <br> a.toniololuca(at)gmail(dot)com <br> \+39 3407909049
 
 <br>
 [Work in progress here](https://www.instagram.com/luca_toniolo_/)
