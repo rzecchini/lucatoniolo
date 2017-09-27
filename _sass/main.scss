@@ -291,10 +291,26 @@ $large: 62.5rem; /* 1000px */
     margin-bottom: 6rem;
 }
 
+.page__header {
+    padding: 3rem 0 4rem;
+}
+
+.page__title, .page__category {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.page__title {
+  font-weight: bold;
+}
+
 .page__pics {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .page__pic {

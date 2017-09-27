@@ -10,12 +10,14 @@
     <main class="default-content" aria-label="Content">
       <div class="container">
         <div class="page">
-            {% if page.title %}
-                <h1 class="page__title">{{ page.title }}</h1>
-            {% endif %}
-
-            {% if page.category %}
-                <h3 class="page__title">{{ page.category }}</h3>
+            {% assign title = page.title |downcase|strip %}
+            {% if page.title and title != 'about' %}
+                <hgroup class="page__header">
+                    <h1 class="page__title">{{ page.title }}</h1>
+                    {% if page.category %}
+                        <h3 class="page__category">{{ page.category }}</h3>
+                    {% endif %}
+                </hgroup>
             {% endif %}
 
             {% if page.images %}
