@@ -1,7 +1,7 @@
 ---
+title: ' ABOUT'
 layout: default
 permalink: /about/
-title: ' ABOUT'
 ---
 Luca Toniolo, Thiene 1985 <br>
 Architecture, Interiors and Research <br>
@@ -10,6 +10,10 @@ Co-Founder of Riviera <br>
 ### Selected Clients:
 
 Mauro Grifoni, Flos, Covert, Stefanie Barth & Carina Frey, Wooden, Paper, CLM, Olev, Aereoporti di Roma, Le Roy Merlin
+
+### On-line Press 
+
+Novembre Magazine, Word Architecture News, Elle Decor, L’Officiel Italia, Archello, Divisare, Pig, Haute-Living
 
 ### Special Collaborations:
 
