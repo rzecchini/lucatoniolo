@@ -115,7 +115,9 @@ $large: 62.5rem; /* 1000px */
 }
 
 .site-header__link--active {
-  text-decoration: underline;
+  padding: 2px;
+  color: #fff;
+  background: #222;
 }
 
 
