@@ -2,17 +2,22 @@
 title: Grifoni
 category: interior/retail
 layout: default
-poster: /assets/uploads/copertina mauro grifoni.jpg
+poster: /assets/uploads/maurogrifoni-milano-lucatoniolo-cover.jpg
 home: true
 images:
-  - picture: /assets/uploads/mauro grifoni 9.JPG
-  - picture: /assets/uploads/mauro grifoni 10.JPG
-  - picture: /assets/uploads/mauro grifoni 8.JPG
-  - picture: /assets/uploads/mauro grifoni 2.jpeg
-  - picture: /assets/uploads/mauro grifoni 1.jpeg
-  - picture: /assets/uploads/mauro grifoni 5.jpg
-  - picture: /assets/uploads/mauro grifoni 6.jpg
-  - picture: /assets/uploads/mauro grifoni 4.jpeg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-1.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-3.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-7.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-2.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-4.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-16.jpeg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-18.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-13.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-14.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-6.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-8.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-17.jpg
+  - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-11.jpg
 ---
 Project: Luca Toniolo
 
@@ -21,5 +26,6 @@ Year: 2017
 Client: Grifoni
 
 Place: Milano ( Mi )
+
 
 
