@@ -34,14 +34,16 @@ if ( clientBtn != null ) {
   });
 }
 
-var wallopEl = document.querySelector('.Wallop');
-if (wallopEl) {
-  var slider = new Wallop(wallopEl);
-  window.setInterval(function() {
-    slider.next()
-  }, 1500)
-}
-
+document.addEventListener("DOMContentLoaded", function(){
+  // Handler when the DOM is fully loaded
+  var wallopEl = document.querySelector('.Wallop');
+  if (wallopEl) {
+    var slider = new Wallop(wallopEl);
+    window.setInterval(function() {
+      slider.next()
+    }, 1500)
+  }
+});
 
 
 
