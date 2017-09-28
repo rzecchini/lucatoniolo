@@ -2,19 +2,19 @@
 title: N house
 category: architecture/interior
 layout: default
-poster: /assets/uploads/interno1-910x1280.jpg
+poster: /assets/uploads/nhouse-interno1-cover.jpg
 home: true
 images:
-  - picture: /assets/uploads/n house dettaglio scala.jpg
-  - picture: /assets/uploads/n house garage.jpg
-  - picture: /assets/uploads/n house interno.jpg
-  - picture: /assets/uploads/n house detail .jpg
-  - picture: /assets/uploads/n house scala-finestra-887x1280.jpg
-  - picture: /assets/uploads/n house handle.jpg
-  - picture: /assets/uploads/IMG_5413.jpg
-  - picture: /assets/uploads/n house interno1-910x1280.jpg
-  - picture: /assets/uploads/n house esterno 1.jpg
-  - picture: /assets/uploads/n house esterno 2.jpg
+  - picture: /assets/uploads/nhouse-dettaglio-scala.jpg
+  - picture: /assets/uploads/nhouse-garage.jpg
+  - picture: /assets/uploads/nhouse-interno.jpg
+  - picture: /assets/uploads/nhouse-detail.jpg
+  - picture: /assets/uploads/nhouse-scala-finestra.jpg
+  - picture: /assets/uploads/nhouse-handle.jpg
+  - picture: /assets/uploads/nhouse-window.jpg
+  - picture: /assets/uploads/nhouse-interno1.jpg
+  - picture: /assets/uploads/nhouse-esterno-1.jpg
+  - picture: /assets/uploads/nhouse-esterno-2.jpg
 ---
 Project: Luca Toniolo
 

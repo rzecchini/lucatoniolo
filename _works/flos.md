@@ -2,15 +2,15 @@
 title: Flos
 category: installation/set up
 layout: default
-poster: /assets/uploads/Flos copertina.jpg
+poster: /assets/uploads/Flos-copertina.jpg
 home: false
 images:
+  - picture: /assets/uploads/Flos1.jpg
   - picture: /assets/uploads/Flos2.jpg
-  - picture: /assets/uploads/Flos 2.jpg
   - picture: /assets/uploads/Flos3.jpg
   - picture: /assets/uploads/Flos5.jpg
   - picture: /assets/uploads/Flos6.jpg
-  - picture: /assets/uploads/Fuorisalone_04_shop_031058445828.jpg
+  - picture: /assets/uploads/Flos7.jpg
 ---
 Project: Stefanie Barth & Carina Frey – Luca Toniolo – Guido Tamino
 

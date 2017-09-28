@@ -2,18 +2,18 @@
 title: RIviera
 category: installation
 layout: default
-poster: /assets/uploads/Riviera 1cop.jpg
+poster: /assets/uploads/Riviera1cop.jpg
 home: false
 images:
-  - picture: /assets/uploads/Riviera 1.jpg
-  - picture: /assets/uploads/Riviera 2.jpg
-  - picture: /assets/uploads/riviera 3.jpg
-  - picture: /assets/uploads/Riviera 9.jpg
-  - picture: /assets/uploads/Riviera 4.jpg
-  - picture: /assets/uploads/Riviera 6.jpg
-  - picture: /assets/uploads/Riviera 7.jpg
-  - picture: /assets/uploads/Riviera 10.jpg
-  - picture: /assets/uploads/Riviera 11.jpg
+  - picture: /assets/uploads/Riviera1.jpg
+  - picture: /assets/uploads/Riviera2.jpg
+  - picture: /assets/uploads/riviera3.jpg
+  - picture: /assets/uploads/Riviera9.jpg
+  - picture: /assets/uploads/Riviera4.jpg
+  - picture: /assets/uploads/Riviera6.jpg
+  - picture: /assets/uploads/Riviera7.jpg
+  - picture: /assets/uploads/Riviera10.jpg
+  - picture: /assets/uploads/Riviera11.jpg
 ---
 Atollo
 

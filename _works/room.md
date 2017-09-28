@@ -2,7 +2,7 @@
 title: Room
 category: Interior/club
 layout: default
-poster: /assets/uploads/room copertina.jpg
+poster: /assets/uploads/room-copertina.jpg
 home: false
 images:
   - picture: /assets/uploads/room_2.jpg
