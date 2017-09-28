@@ -5,10 +5,10 @@ layout: default
 poster: /assets/uploads/1 copertina.jpg
 home: true
 images:
-  - picture: /assets/uploads/3.jpg
-  - picture: /assets/uploads/8.jpg
-  - picture: /assets/uploads/6.jpg
-  - picture: /assets/uploads/1.jpg
+  - picture: /assets/uploads/covert-1.jpg
+  - picture: /assets/uploads/covert-2.jpg
+  - picture: /assets/uploads/covert-3.jpg
+  - picture: /assets/uploads/covert-4.jpg
 ---
 Project: Luca Toniolo –Daniel Sansavini
 

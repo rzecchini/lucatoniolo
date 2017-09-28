@@ -63,9 +63,10 @@ defaults:
     values:
       layout: "default"
       home: false
+      priority: "a"
   -
     scope:
       path: ""
       type: "clients"
     values:
-      priority: 1
+      priority: "a"

@@ -36,7 +36,8 @@
         <h4 class="latest-works">Latest works</h4>
 
         <section class="works works--index">
-          {% for work in site.works %}
+          {% assign sorted_works = site.works | sort: 'priority' %}
+          {% for work in sorted_works %}
               {% if work.title %}
                   {% include work.html url=work.url title=work.title category=work.category poster=work.poster index=true %}
               {% endif %}

@@ -150,8 +150,12 @@ $large: 62.5rem; /* 1000px */
   font-size: inherit;
 }
 
+//.hello__clients-excerpt, .hello__clients-all {
+//    color: $grey-color;
+//}
+
 .hello__client-link {
-  text-decoration: underline;
+  color: $text-color;
 }
 
 .hello__btn {
@@ -268,10 +272,18 @@ $large: 62.5rem; /* 1000px */
   }
 }
 
+.work__image-wrapper {
+    position: relative;
+    padding-bottom: 140%;
+    margin-bottom: 0.5rem;
+    background: #222;
+}
+
 .work__image {
+  position: absolute;
   display: block;
   max-width: 100%;
-  margin-bottom: 0.5rem;
+//  margin-bottom: 0.5rem;
 }
 
 .work__title {

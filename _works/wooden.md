@@ -2,7 +2,7 @@
 title: Wooden
 category: interior/retail
 layout: default
-poster: /assets/uploads/copertina wooden 2.jpg
+poster: /assets/uploads/copertina-wooden-2.jpg
 home: false
 images:
   - picture: /assets/uploads/wooden_verona_1.jpg

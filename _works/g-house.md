@@ -2,17 +2,17 @@
 title: G House
 category: architecture/interior
 layout: default
-poster: /assets/uploads/interno1-910x1280 cover.jpg
+poster: /assets/uploads/ghouse-cover.jpg
 home: true
 images:
-  - picture: /assets/uploads/interno1-910x1280 cover rigo.jpg
+  - picture: /assets/uploads/ghouse-cover-rigo.jpg
   - picture: /assets/uploads/ghouse5.jpg
-  - picture: /assets/uploads/ghouse 9.jpg
+  - picture: /assets/uploads/ghouse9.jpg
   - picture: /assets/uploads/ghouse10.jpg
-  - picture: /assets/uploads/G House_1.JPG
+  - picture: /assets/uploads/ghouse_1.jpg
   - picture: /assets/uploads/ghouse11.jpg
   - picture: /assets/uploads/ghouse_3.jpg
-  - picture: /assets/uploads/G House 2 .jpg
+  - picture: /assets/uploads/ghouse2.jpg
   - picture: /assets/uploads/ghoues6.jpg
 ---
 Project: Luca Toniolo
