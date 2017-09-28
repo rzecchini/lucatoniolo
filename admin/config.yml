@@ -27,6 +27,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
       - {label: "Cover", name: "poster", widget: "image"}
       - {label: "Home", name: "home", widget: "boolean", default: false, required: false}
+      - {label: "Priority", name: "priority", widget: "string", required: false}
       - label: "Images"
         name: "images"
         required: false
@@ -42,5 +43,5 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Priority", name: "priority", widget: "string"}
+      - {label: "Priority", name: "priority", widget: "string", required: false}
       - {label: "Work link", name: "work_link", widget: "string", required: false}
