@@ -34,8 +34,7 @@ if ( clientBtn != null ) {
   });
 }
 
-document.addEventListener("DOMContentLoaded", function(){
-  // Handler when the DOM is fully loaded
+//window.onload = function() {
   var wallopEl = document.querySelector('.Wallop');
   if (wallopEl) {
     var slider = new Wallop(wallopEl);
@@ -43,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function(){
       slider.next()
     }, 1500)
   }
-});
+//});
 
 
 
