@@ -42,7 +42,7 @@
                       {% for client in sorted_clients %}
                           {% if forloop.index < 5 %}
                               {% if client.work_link and client.work_link != '' %}
-                                      <a class="hello__client-link" href="{{ client.work_link | relative_url }}">{{ client.title }}</a>,
+                                      <a class="hello__client-link" href="{{ client.work_link | relative_url }}">{{ client.title }},</a>
                                   {% else %}
                                       {{ client.title }},
                               {% endif %}
