@@ -1,0 +1,18 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for page in site.pages %}
+  {% if page.title %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+  </url>
+  {% endif %}
+  {% endfor %}
+  {% for work in site.works %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}{{ work.url }}</loc>
+  </url>
+  {% endfor %}
+</urlset>
