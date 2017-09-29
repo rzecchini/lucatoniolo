@@ -1,8 +1,9 @@
 ---
 title: Grifoni
-priority: a
+priority: c
 work_link: /works/grifoni
 ---
+
 
 
 
