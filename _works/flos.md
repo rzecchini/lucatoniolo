@@ -4,7 +4,7 @@ category: installation/set up
 layout: default
 poster: /assets/uploads/Flos-copertina.jpg
 home: false
-priority: k
+priority: e
 images:
   - picture: /assets/uploads/Flos1.jpg
   - picture: /assets/uploads/Flos2.jpg
@@ -22,5 +22,6 @@ Photo and videos: Frank Hülsbömer – direct link
 Milano – Corso Manforte – Fuorisalone 2015
 
 Installation for presentation of the new collections of fabrics, wallpapers and launch of the new decorative catalogue, combined with some of the new products.
+
 
 
