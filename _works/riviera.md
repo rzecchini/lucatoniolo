@@ -4,6 +4,7 @@ category: installation
 layout: default
 poster: /assets/uploads/Riviera1cop.jpg
 home: false
+priority: f
 images:
   - picture: /assets/uploads/Riviera1.jpg
   - picture: /assets/uploads/Riviera2.jpg
@@ -34,4 +35,5 @@ Type: Industrial Design
 Year: 2015
 
 [https://soundcloud.com/rivieralab/riviera-lab](https://soundcloud.com/rivieralab/riviera-lab)
+
 
