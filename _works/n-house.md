@@ -4,6 +4,7 @@ category: architecture/interior
 layout: default
 poster: /assets/uploads/nhouse-interno1-cover.jpg
 home: true
+priority: a
 images:
   - picture: /assets/uploads/nhouse-dettaglio-scala.jpg
   - picture: /assets/uploads/nhouse-garage.jpg
@@ -31,4 +32,5 @@ Selected on-line press
 Archello
 
 Divisare
+
 
