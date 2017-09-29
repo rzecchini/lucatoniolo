@@ -4,6 +4,7 @@ category: Interior/club
 layout: default
 poster: /assets/uploads/room-copertina.jpg
 home: false
+priority: l
 images:
   - picture: /assets/uploads/room_2.jpg
   - picture: /assets/uploads/room_3.jpg
@@ -25,6 +26,7 @@ Located in the historic center of Bassano del Grappa, the intervention starts pr
 All the lights can be modified and controlled by mobile phone.
 
 The result is a versatile club that reminds the early 2000s techno discos
+
 
 
 
