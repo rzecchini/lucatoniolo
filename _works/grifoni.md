@@ -4,6 +4,7 @@ category: interior/retail
 layout: default
 poster: /assets/uploads/maurogrifoni-milano-lucatoniolo-cover.jpg
 home: true
+priority: c
 images:
   - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-1.jpg
   - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-3.jpg
@@ -26,6 +27,7 @@ Year: 2017
 Client: Grifoni
 
 Place: Milano ( Mi )
+
 
 
 
