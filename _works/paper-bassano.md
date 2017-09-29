@@ -4,6 +4,7 @@ category: interior/retail
 layout: default
 poster: /assets/uploads/PAPERbassanocop.jpg
 home: true
+priority: h
 images:
   - picture: /assets/uploads/PAPER-BASSANO-DETAIL-8.JPG
   - picture: /assets/uploads/Ppaper-bassano-detail-3.jpg
@@ -23,5 +24,6 @@ Year: 2015
 Client: Paper
 
 Place: Bassano del Grappa
+
 
 
