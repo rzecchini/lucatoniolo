@@ -124,15 +124,14 @@ $large: 62.5rem; /* 1000px */
 /* Hello
  *=======================================*/
 .hello {
-  //max-width: 38rem;
-  margin: auto;
   padding: 1rem;
   font-size: 1.5rem;
 
   @include media-query($large) {
+    margin: auto;
     order: 1;
     padding: 3rem 3rem 1rem;
-    max-width: 48rem;
+    max-width: 44rem;
     //font-size: 2rem;
     text-align: center;
   }

@@ -3,7 +3,11 @@
 
 <a class="work {% if isIndex %} work--index {% endif %}" href="{{ include.url | relative_url }}">
     <div class="work__image-wrapper">
-        <img class="work__image" src="https://res.cloudinary.com/rzecchini/image/fetch/w_455,h_640,c_fill/{{ include.poster | absolute_url }}" srcset="https://res.cloudinary.com/rzecchini/image/fetch/w_455,h_640,c_fill/{{ include.poster | absolute_url }} 1x, https://res.cloudinary.com/rzecchini/image/fetch/w_910,h_1280,c_fill/{{ include.poster | absolute_url }} 2x" alt="Cover image of the work {{ include.title | escape }}" title="{{ include.title | escape }}">
+        {% if isIndex %}
+            <img class="work__image" src="https://res.cloudinary.com/rzecchini/image/fetch/w_181,h_255,c_fill/{{ include.poster | absolute_url }}" srcset="https://res.cloudinary.com/rzecchini/image/fetch/w_181,h_255,c_fill/{{ include.poster | absolute_url }} 181w, https://res.cloudinary.com/rzecchini/image/fetch/w_362,h_510,c_fill/{{ include.poster | absolute_url }} 362w, https://res.cloudinary.com/rzecchini/image/fetch/w_306,h_430,c_fill/{{ include.poster | absolute_url }} 306w, https://res.cloudinary.com/rzecchini/image/fetch/w_612,h_860,c_fill/{{ include.poster | absolute_url }} 612w" sizes="(min-width:600px) 33vw, (min-width:1000px) 25vw, 50vw" alt="Cover image of the work {{ include.title | escape }}" title="{{ include.title | escape }}">
+        {% else %}
+            <img class="work__image" src="https://res.cloudinary.com/rzecchini/image/fetch/w_455,h_640,c_fill/{{ include.poster | absolute_url }}" srcset="https://res.cloudinary.com/rzecchini/image/fetch/w_400,h_562,c_fill/{{ include.poster | absolute_url }} 400w, https://res.cloudinary.com/rzecchini/image/fetch/w_600,h_844,c_fill/{{ include.poster | absolute_url }} 600w, https://res.cloudinary.com/rzecchini/image/fetch/w_800,h_1125,c_fill/{{ include.poster | absolute_url }} 800w" sizes="(min-width:500px) 500px, (min-width:1000px) 33vw, 100vw" alt="Cover image of the work {{ include.title | escape }}" title="{{ include.title | escape }}">
+        {% endif %}
     </div>
     <h3 class="work__title">{{ include.title | escape }}</h3>
     <h4 class="work__category">{{ include.category | escape }}</h4>

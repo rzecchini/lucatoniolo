@@ -26,7 +26,7 @@
               {% assign see_works = 0 %}
               {% for work in site.works %}
                 {% if work.home == false and see_works < 2 %}
-                  <div class="all-works__item" style="background-image:url('{{ work.poster }}')"></div>
+                  <div class="all-works__item" style="background-image:url('https://res.cloudinary.com/rzecchini/image/fetch/w_500/{{ work.poster | absolute_url }}')"></div>
                   {% assign see_works = see_works | plus: 1 %}
                 {% endif %}
               {% endfor %}

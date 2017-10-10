@@ -24,7 +24,7 @@
                 <div class="page__pics">
                     {% for item in page.images %}
                         <div class="page__pic">
-                            <img src="https://res.cloudinary.com/rzecchini/image/fetch/w_600/{{ item.picture| absolute_url }}" srcset="https://res.cloudinary.com/rzecchini/image/fetch/w_555/{{ item.picture| absolute_url }} 1x, https://res.cloudinary.com/rzecchini/image/fetch/w_1000/{{ item.picture| absolute_url }} 2x" alt="Picture from the work {{ page.title }}">
+                            <img src="https://res.cloudinary.com/rzecchini/image/fetch/w_600,f_auto/{{ item.picture| absolute_url }}" srcset="https://res.cloudinary.com/rzecchini/image/fetch/w_600,f_auto/{{ item.picture| absolute_url }} 600w, https://res.cloudinary.com/rzecchini/image/fetch/w_800,f_auto/{{ item.picture| absolute_url }} 800w, https://res.cloudinary.com/rzecchini/image/fetch/w_1000,f_auto/{{ item.picture| absolute_url }} 1000w" sizes="(min-width:1000px) 50vw, 100vw" alt="Picture from the work {{ page.title }}">
                         </div>
                     {% endfor %}
                 </div>
