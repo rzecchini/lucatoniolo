@@ -267,6 +267,10 @@ $large: 62.5rem; /* 1000px */
   padding-right: 1rem;
   margin-bottom: 1rem;
 
+  @include media-query($medium) {
+    flex: 0 0 33.333%;
+  }
+
   @include media-query($large) {
     flex: 0 0 25%;
   }
