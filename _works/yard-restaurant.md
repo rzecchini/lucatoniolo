@@ -28,6 +28,4 @@ Client: Allure
 
 Place: Verona
 
-Photo:  Valentina Eleonora Costa,  Martino Vincenzi
-
 Selected on-line press : scattidigusto.it - ristorazioneitalianamagazine.it - newsfood.com
