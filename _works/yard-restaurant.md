@@ -19,6 +19,7 @@ images:
   - picture: /assets/uploads/yardrestaurant_lamp_lucatoniolo.jpg
   - picture: /assets/uploads/yardrestaurant_green_lucatoniolo copia.jpg
   - picture: /assets/uploads/yardrestaurant_detail2_lucatoniolo.jpg
+  - picture: /assets/uploads/yardrestaurant_cucina_lucatoniolo.jpg
 ---
 Project: Luca Toniolo
 
@@ -29,3 +30,4 @@ Client: Allure
 Place: Verona
 
 Selected on-line press : scattidigusto.it - ristorazioneitalianamagazine.it - newsfood.com
+
