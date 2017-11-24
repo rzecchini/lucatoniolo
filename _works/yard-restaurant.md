@@ -18,7 +18,6 @@ images:
   - picture: /assets/uploads/yardrestaurant_bathroom_lucatoniolo.jpg
   - picture: /assets/uploads/yardrestaurant_lamp_lucatoniolo.jpg
   - picture: /assets/uploads/yardrestaurant_green_lucatoniolo copia.jpg
-  - picture: /assets/uploads/yardrestaurant_cucina_sushi_lucatoniolo.jpg
   - picture: /assets/uploads/yardrestaurant_detail2_lucatoniolo.jpg
 ---
 Project: Luca Toniolo
@@ -28,5 +27,7 @@ Year: 2017
 Client: Allure
 
 Place: Verona
+
+Photo:  Valentina Eleonora Costa,  Martino Vincenzi
 
 Selected on-line press : scattidigusto.it - ristorazioneitalianamagazine.it - newsfood.com
