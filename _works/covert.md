@@ -1,9 +1,10 @@
 ---
 title: Covert
-category: Inter
+category: 'Interior/set up '
 layout: default
 poster: /assets/uploads/Covert Showroom luca toniolocopertina.jpg
 home: true
+priority: d
 images:
   - picture: /assets/uploads/Covert Showroom luca toniolo1.jpg
   - picture: /assets/uploads/Covert Showroom luca toniolo2.jpg
@@ -19,3 +20,4 @@ Year: 2018
 Client: Covert - Mauro Grifoni
 
 Place: Milano -  Aretè Showroom
+
