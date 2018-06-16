@@ -1,24 +1,21 @@
 ---
 title: Covert
-category: Interior/set up
+category: Inter
 layout: default
-poster: /assets/uploads/1 copertina.jpg
+poster: /assets/uploads/Covert Showroom luca toniolocopertina.jpg
 home: true
-priority: g
 images:
-  - picture: /assets/uploads/covert-1.jpg
-  - picture: /assets/uploads/covert-2.jpg
-  - picture: /assets/uploads/covert-3.jpg
-  - picture: /assets/uploads/covert-4.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo1.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo2.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo3.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo6.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo4.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo5.jpg
 ---
-Project: Luca Toniolo –Daniel Sansavini
+Project: Luca Toniolo
 
-Year: 2017
+Year: 2018
 
-Client: Covert – Mauro Grofoni
+Client: Covert - Mauro Grifoni
 
-Place: Milano (Mi)
-
-Setting up of the showroom for the fashion week.
-
-
+Place: Milano -  Aretè Showroom
