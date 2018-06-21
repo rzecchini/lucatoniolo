@@ -1,19 +1,22 @@
 ---
-title: Covert
-category: inte
+title: COVERT SS19
+category: inter
 layout: default
-poster: /assets/uploads/covert1lucatoniolocopertina.jpg
+poster: /assets/uploads/Covert Showroom luca toniolocopertina.jpg
 home: true
 priority: F
 images:
-  - picture: /assets/uploads/covert1lucatoniolo2.jpg
-  - picture: /assets/uploads/covert1lucatoniolo3.jpg
-  - picture: /assets/uploads/covert1lucatoniolo4.jpg
-  - picture: /assets/uploads/covert1lucatoniolocopertina.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo1.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo2.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo3.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo4.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo5.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo6.jpg
+  - picture: /assets/uploads/Covert Showroom luca toniolo7.jpg
 ---
 Project: Luca Toniolo
 
-Year: 2017
+Year: 2018
 
 Client: Covert - Mauro Grifoni
 
