@@ -1,25 +1,20 @@
 ---
 title: Covert
-category: 'Interior/set up '
+category: inte
 layout: default
-poster: /assets/uploads/Covert Showroom luca toniolocopertina.jpg
+poster: /assets/uploads/covert1lucatoniolocopertina.jpg
 home: true
-priority: d
+priority: F
 images:
-  - picture: /assets/uploads/Covert Showroom luca toniolo1.jpg
-  - picture: /assets/uploads/Covert Showroom luca toniolo2.jpg
-  - picture: /assets/uploads/Covert Showroom luca toniolo3.jpg
-  - picture: /assets/uploads/Covert Showroom luca toniolo6.jpg
-  - picture: /assets/uploads/Covert Showroom luca toniolo4.jpg
-  - picture: /assets/uploads/Covert Showroom luca toniolo5.jpg
-  - picture: /assets/uploads/Covert Showroom luca toniolo7.jpg
+  - picture: /assets/uploads/covert1lucatoniolo2.jpg
+  - picture: /assets/uploads/covert1lucatoniolo3.jpg
+  - picture: /assets/uploads/covert1lucatoniolo4.jpg
+  - picture: /assets/uploads/covert1lucatoniolocopertina.jpg
 ---
 Project: Luca Toniolo
 
-Year: 2018
+Year: 2017
 
 Client: Covert - Mauro Grifoni
 
-Place: Milano -  Aretè Showroom
-
-
+Place: Milano
