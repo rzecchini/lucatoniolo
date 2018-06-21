@@ -1,10 +1,10 @@
 ---
 title: COVERT SS18
-category: INTERIO
+category: interior/set up
 layout: default
 poster: /assets/uploads/covert1lucatoniolocopertina.jpg
 home: true
-priority: E
+priority: L
 images:
   - picture: /assets/uploads/covert1lucatoniolo2.jpg
   - picture: /assets/uploads/covert1lucatoniolo3.jpg
@@ -18,3 +18,4 @@ Year: 2018
 Client: Covert-Mauro Grifoni
 
 Place: Milano
+
