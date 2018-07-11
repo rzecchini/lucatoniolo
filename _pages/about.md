@@ -1,7 +1,7 @@
 ---
+title: ' ABOUT'
 layout: default
 permalink: /about/
-title: ' ABOUT'
 ---
 Luca Toniolo, Thiene 1985 <br>
 Architecture, Interiors and Research <br>
@@ -13,7 +13,7 @@ Mauro Grifoni, Flos, Covert, Stefanie Barth & Carina Frey, Wooden, Paper, CLM, O
 
 ### On-line Press
 
-Novembre Magazine, Word Architecture News, Elle Decor, L’Officiel Italia, Archello, Divisare, Pig, Haute-Living
+Novembre Magazine, Living Corriere della sera, Word Architecture News, Elle Decor, L’Officiel Italia, Archello, Divisare, Pig, Haute-Living
 
 ### Special Collaborations:
 
