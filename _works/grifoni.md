@@ -19,6 +19,7 @@ images:
   - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-8.jpg
   - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-17.jpg
   - picture: /assets/uploads/maurogrifoni-milano-lucatoniolo-11.jpg
+  - picture: /assets/uploads/Grifoni-press.jpg
 ---
 Project: Luca Toniolo
 
@@ -27,6 +28,7 @@ Year: 2017
 Client: Grifoni
 
 Place: Milano ( Mi )
+
 
 
 
