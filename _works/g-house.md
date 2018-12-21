@@ -4,7 +4,7 @@ category: architecture/interior
 layout: default
 poster: /assets/uploads/ghouse-cover.jpg
 home: true
-priority: d
+priority: c
 images:
   - picture: /assets/uploads/ghouse-cover-rigo.jpg
   - picture: /assets/uploads/ghouse5.jpg
@@ -33,6 +33,7 @@ Selected on-line press
 Archello
 
 Divisare
+
 
 
 
