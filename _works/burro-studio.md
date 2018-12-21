@@ -3,7 +3,7 @@ title: Burro studio
 category: interior
 layout: default
 poster: /assets/uploads/interno1-910x1280 cover burro studio.jpg
-home: false
+home: true
 priority: b
 images:
   - picture: /assets/uploads/IMG_8604.jpg
@@ -19,3 +19,4 @@ Year: 2018
 Clien: Private
 
 Place: Verona
+
