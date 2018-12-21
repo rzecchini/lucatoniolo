@@ -27,4 +27,10 @@ images:
   - picture: /assets/uploads/lucatoniolo-441-detail9.jpg
   - picture: /assets/uploads/lucatoniolo-441-esterno8.jpg
 ---
+Project: Luca Toniolo
 
+Year: 2018
+
+Client: Private
+
+Place: Marostica
