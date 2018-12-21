@@ -3,7 +3,7 @@ title: Paper
 category: interior/retail
 layout: default
 poster: /assets/uploads/papercopertina.jpg
-home: true
+home: false
 priority: b
 images:
   - picture: /assets/uploads/Paper_ferrara_3.jpg
@@ -21,6 +21,7 @@ Year: 2016-2017
 Client: Paper
 
 Place: Verona, Ferrara, Riccione, Fano
+
 
 
 
