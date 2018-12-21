@@ -4,7 +4,7 @@ category: interior
 layout: default
 poster: /assets/uploads/gentryportofino_covert_lucatoniolo.jpg
 home: true
-priority: f
+priority: d
 images:
   - picture: /assets/uploads/gentryportofino_10_lucatoniolo.jpg
   - picture: /assets/uploads/gentryportofino_9_lucatoniolo.jpg
@@ -23,3 +23,4 @@ Year: 2018
 Client: Olmar&Mirta
 
 Place: Cortina
+
