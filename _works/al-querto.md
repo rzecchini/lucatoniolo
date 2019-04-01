@@ -3,8 +3,8 @@ title: Al Querto
 category: interior/bar
 layout: default
 poster: /assets/uploads/alquerto_lucatoniolo_cover_2.jpg
-home: false
-priority: null
+home: true
+priority: d
 images:
   - picture: /assets/uploads/alquerto_lucatoniolo_1.jpg
   - picture: /assets/uploads/alquerto_lucatoniolo_3.jpg
@@ -18,3 +18,4 @@ Year: 2019
 Clien: Private
 
 Place: Bassano del Grappa
+
