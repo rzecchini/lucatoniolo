@@ -12,6 +12,7 @@ images:
   - picture: /assets/uploads/Housep_lucatoniolo_3.jpg
   - picture: /assets/uploads/Housep_lucatoniolo_6.jpg
   - picture: /assets/uploads/Housep_lucatoniolo_8.jpg
+  - picture: /assets/uploads/Housep_lucatoniolo_9.jpg
 ---
 Project: Luca Toniolo
 
@@ -20,4 +21,5 @@ Year: 2018/19
 Clien: Private
 
 Place: Verona
+
 
