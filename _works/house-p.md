@@ -3,7 +3,7 @@ title: House P
 category: architecture/interior
 layout: default
 poster: /assets/uploads/HouseP_lucatoniolo.jpg
-home: false
+home: true
 priority: b
 images:
   - picture: /assets/uploads/cucina1-.jpg
@@ -30,6 +30,7 @@ Year: 2018/19
 Clien: Private
 
 Place: Verona
+
 
 
 
