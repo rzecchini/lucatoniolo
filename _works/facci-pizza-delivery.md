@@ -3,8 +3,8 @@ title: Facci Pizza Delivery
 category: interior / pizza
 layout: default
 poster: /assets/uploads/interno1-910x1280 cover facci.jpg
-home: false
-priority: null
+home: true
+priority: c
 images:
   - picture: /assets/uploads/1_Studiolucatoniolo_faccipizza_1.jpg
   - picture: /assets/uploads/1_Studiolucatoniolo_faccipizza_2.jpg
@@ -19,3 +19,4 @@ Year: 2019
 Clien: Facci Pizza
 
 Place: Verona
+
