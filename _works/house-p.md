@@ -4,7 +4,7 @@ category: architecture/interior
 layout: default
 poster: /assets/uploads/HouseP_lucatoniolo.jpg
 home: true
-priority: b
+priority: a
 images:
   - picture: /assets/uploads/cucina1-.jpg
   - picture: /assets/uploads/cucina2-.jpg
@@ -30,6 +30,7 @@ Year: 2018/19
 Clien: Private
 
 Place: Verona
+
 
 
 
