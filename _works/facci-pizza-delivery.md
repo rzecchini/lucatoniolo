@@ -11,6 +11,7 @@ images:
   - picture: /assets/uploads/1_Studiolucatoniolo_faccipizza_4.jpg
   - picture: /assets/uploads/1_Studiolucatoniolo_faccipizza_5.jpg
   - picture: /assets/uploads/1_Studiolucatoniolo_faccipizza_2.jpg
+  - picture: /assets/uploads/1_Studiolucatoniolo_faccipizza_9.jpg
 ---
 Project: Luca Toniolo
 
@@ -19,6 +20,7 @@ Year: 2019
 Clien: Facci Pizza
 
 Place: Verona
+
 
 
 
