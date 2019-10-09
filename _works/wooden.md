@@ -21,7 +21,4 @@ Year: 2016-2017
 
 Client: Wooden
 
-Place: Verona, Riccione, Fano, Torino, Modena
-
-
-
+Place: Verona, Riccione, Fano, Torino, Modena, Bergamo, Bologna, Cesena, Monza
