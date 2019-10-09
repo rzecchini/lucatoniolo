@@ -20,9 +20,4 @@ Year: 2016-2017
 
 Client: Paper
 
-Place: Verona, Ferrara, Riccione, Fano
-
-
-
-
-
+Place: Verona, Ferrara, Pistoia, Riccione, Fano, Cesena, Padova, 
