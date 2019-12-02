@@ -14,6 +14,7 @@ images:
   - picture: /assets/uploads/wooden_verona_2.jpg
   - picture: /assets/uploads/wooden_verona_7.jpg
   - picture: /assets/uploads/wooden verona_4.png
+  - picture: /assets/uploads/wooden_verona_5.jpg
 ---
 Project: Luca Toniolo
 
@@ -22,3 +23,4 @@ Year: 2016-2017
 Client: Wooden
 
 Place: Verona, Riccione, Fano, Torino, Modena, Bergamo, Bologna, Cesena, Monza
+
