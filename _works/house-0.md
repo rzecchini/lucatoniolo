@@ -6,10 +6,10 @@ poster: /assets/uploads/House0_cover_lucatoniolo.jpg
 home: true
 priority: a
 images:
-  - picture: /assets/uploads/House0_1_lucatoniolo.jpg
-  - picture: /assets/uploads/House0_2_lucatoniolo.jpg
   - picture: /assets/uploads/House0_3_lucatoniolo.JPG
   - picture: /assets/uploads/House0_6_lucatoniolo.jpg
+  - picture: /assets/uploads/House0_1_lucatoniolo.jpg
+  - picture: /assets/uploads/House0_2_lucatoniolo.jpg
   - picture: /assets/uploads/House0_8_lucatoniolo.jpg
   - picture: /assets/uploads/House0_10_lucatoniolo.jpg
   - picture: /assets/uploads/House0_7_lucatoniolo.jpg
@@ -23,6 +23,7 @@ Year: 2019
 Clien: Private
 
 Place: Thiene
+
 
 
 
