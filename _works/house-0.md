@@ -13,7 +13,6 @@ images:
   - picture: /assets/uploads/House0_8_lucatoniolo.jpg
   - picture: /assets/uploads/House0_10_lucatoniolo.jpg
   - picture: /assets/uploads/House0_7_lucatoniolo.jpg
-  - picture: /assets/uploads/House0_14_lucatoniolo.jpg
   - picture: /assets/uploads/House0_5_lucatoniolo.jpg
   - picture: /assets/uploads/House0_12_lucatoniolo.jpg
 ---
@@ -24,5 +23,6 @@ Year: 2019
 Clien: Private
 
 Place: Thiene
+
 
 
