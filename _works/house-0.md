@@ -3,7 +3,7 @@ title: House 0
 category: architecture / interiors
 layout: default
 poster: /assets/uploads/House0_cover_lucatoniolo.jpg
-home: false
+home: true
 priority: a
 images:
   - {}
@@ -25,3 +25,4 @@ Year: 2019
 Clien: Private
 
 Place: Thiene
+
