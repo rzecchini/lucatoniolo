@@ -6,7 +6,6 @@ poster: /assets/uploads/gentryportofino_covert_lucatoniolo.jpg
 home: true
 priority: d
 images:
-  - {}
   - picture: /assets/uploads/gentryportofino_9_lucatoniolo.jpg
   - picture: /assets/uploads/gentryportofino_8_lucatoniolo.jpg
   - picture: /assets/uploads/gentryportofino_7_lucatoniolo.jpg
@@ -16,16 +15,13 @@ images:
   - picture: /assets/uploads/gentryportofino_2_lucatoniolo.jpg
   - picture: /assets/uploads/gentryportofino_1_lucatoniolo.jpg
   - picture: /assets/uploads/827EEBE4-5AD5-4585-9CBB-A7F96B7C7BA7.JPG
-  - picture: /assets/uploads/C8DD3F8E-7E94-430C-8C33-EE9F66782C0B.JPG
   - picture: /assets/uploads/53B2E7FD-F554-4F43-8DE8-8E9E4960DAEE.JPG
   - picture: /assets/uploads/53B2E7FD-F554-4F43-8DE8-8E9E4960DAEE.JPG
 ---
 Project: Luca Toniolo
 
-Year: 2018
+Year: 2018 - 2019
 
 Client: Olmar&Mirta
 
-Place: Cortina
-
-
+Place: Cortina - Desenzano - Tokyo 
