@@ -3,7 +3,7 @@ title: Paper Bassano
 category: interior/retail
 layout: default
 poster: /assets/uploads/PAPERbassanocop.jpg
-home: true
+home: false
 priority: h
 images:
   - picture: /assets/uploads/PAPER-BASSANO-DETAIL-8.JPG
@@ -24,6 +24,7 @@ Year: 2015
 Client: Paper
 
 Place: Bassano del Grappa
+
 
 
 
