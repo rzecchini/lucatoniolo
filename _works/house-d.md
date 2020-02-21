@@ -10,6 +10,7 @@ images:
   - picture: /assets/uploads/Schermata 2018-12-21 alle 15.51.30.png
   - picture: /assets/uploads/Schermata 2018-12-21 alle 15.51.12.png
   - picture: /assets/uploads/Schermata 2018-12-21 alle 15.51.40.png
+  - picture: /assets/uploads/DanielBAGNO-.jpg
 ---
 Project: Luca Toniolo - Francesco Sarao
 
@@ -20,3 +21,4 @@ Client: Private
 Place: Milano
 
 Photo in progress
+
