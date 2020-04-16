@@ -11,7 +11,7 @@ images:
   - picture: /assets/uploads/lucatoniolo-441-24.jpg
   - picture: /assets/uploads/lucatoniolo-441-27.jpg
   - picture: /assets/uploads/lucatoniolo-441-bagno.jpg
-  - picture: /assets/uploads/lucatoniolo-441-camere_10.jpg
+  - picture: /assets/uploads/lucatoniolo-441-disimpegno_222.jpg
   - picture: /assets/uploads/lucatoniolo-441-cucina2.jpg
   - picture: /assets/uploads/lucatoniolo-441-cucina4 copia.jpg
   - picture: /assets/uploads/lucatoniolo-441-detail3.jpg
@@ -28,6 +28,7 @@ Year: 2018
 Client: Private
 
 Place: Marostica
+
 
 
 
