@@ -6,8 +6,8 @@ poster: /assets/uploads/interno1-910x1280 cover lucatoniolo.jpg
 home: true
 priority: a
 images:
-  - picture: /assets/uploads/9a70d296-2bee-428a-8b2b-107f9828532f.JPG
-  - picture: /assets/uploads/FEADAB61-B452-4998-ADA7-F6955C9F90FF.JPG
+  - picture: /assets/uploads/lucatoniolo-studio.1.jpg
+  - picture: /assets/uploads/lucatoniolo-441-soggiorno1.jpg
   - picture: /assets/uploads/lucatoniolo-441-24.jpg
   - picture: /assets/uploads/lucatoniolo-441-27.jpg
   - picture: /assets/uploads/lucatoniolo-441-bagno.jpg
@@ -20,7 +20,6 @@ images:
   - picture: /assets/uploads/lucatoniolo-441-esterno8.jpg
   - picture: /assets/uploads/lucatoniolo-441-esterno26.jpg
   - picture: /assets/uploads/lucatoniolo-441-detail4.jpg
-  - picture: /assets/uploads/lucatoniolo-441-bagno4.jpg
 ---
 Project: Luca Toniolo
 
@@ -29,6 +28,7 @@ Year: 2018
 Client: Private
 
 Place: Marostica
+
 
 
 
