@@ -19,6 +19,8 @@ images:
   - picture: /assets/uploads/querto_luca12.jpg
   - picture: /assets/uploads/querto_luca15.jpeg
   - picture: /assets/uploads/querto_luca16.jpeg
+  - picture: /assets/uploads/TAKE AWAY-alquerto-1.png
+  - picture: /assets/uploads/TAKE AWAY-alquerto-2.png
 ---
 Project: Luca Toniolo/Roberto Lanaro
 
@@ -27,6 +29,7 @@ Year: 2019
 Clien: Private
 
 Place: Bassano del Grappa
+
 
 
 
