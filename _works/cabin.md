@@ -3,8 +3,8 @@ title: Cabin
 category: architecture - interiors
 layout: default
 poster: /assets/uploads/countrycover.jpg
-home: false
-priority: null
+home: true
+priority: b
 images:
   - picture: /assets/uploads/country2-.jpg
   - picture: /assets/uploads/country7.jpg
@@ -20,3 +20,4 @@ Year: 2020
 Client: Private
 
 Place: Thiene
+
