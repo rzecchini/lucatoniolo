@@ -24,3 +24,5 @@ Year: 2020
 Client: Private
 
 Place: Bassano del Grappa
+
+photo: Leo Sanzo 
