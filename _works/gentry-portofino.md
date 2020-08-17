@@ -2,7 +2,7 @@
 title: Gentry Portofino
 category: interior
 layout: default
-poster: /assets/uploads/gentryportofino_covert_lucatoniolo.jpg
+poster: /assets/uploads/gentryportofinocover.jpg
 home: true
 priority: d
 images:
@@ -24,3 +24,4 @@ Year: 2018 - 2020
 Client: Olmar&Mirta
 
 Place: Cortina - Desenzano - Tokyo - Portofino
+
