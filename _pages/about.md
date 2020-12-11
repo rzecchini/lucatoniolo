@@ -9,7 +9,7 @@ Co-Founder of Riviera <br>
 
 ### Selected Clients:
 
-Mauro Grifoni, Flos, Covert, Gentry Portofino, Stefanie Barth & Carina Frey, Olmar&Mirta
+RetroSuperFuture, Mauro Grifoni, Flos, Covert, Gentry Portofino, Stefanie Barth & Carina Frey, Olmar&Mirta
 
 ### On-line Press
 
