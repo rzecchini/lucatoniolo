@@ -17,6 +17,7 @@ images:
   - picture: /assets/uploads/woolen_lucatoniolo_5.jpg
   - picture: /assets/uploads/woolen_lucatoniolo_13.jpg
   - picture: /assets/uploads/woolen_lucatoniolo_14.jpg
+  - picture: /assets/uploads/woolen_lucatoniolo_7.jpg
 ---
 Project: Luca Toniolo
 
@@ -25,3 +26,4 @@ Year: 2020
 Clien: Private
 
 Place: Schio
+
