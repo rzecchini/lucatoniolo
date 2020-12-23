@@ -1,5 +1,5 @@
 ---
-title: Paper Bassano
+title: Paper wardrobe
 category: interior/retail
 layout: default
 poster: /assets/uploads/PAPERbassanocop.jpg
@@ -16,15 +16,15 @@ images:
   - picture: /assets/uploads/PAPER-BASSANO-DETAIL4.jpg
   - picture: /assets/uploads/paper-bassano-detail.jpg
   - picture: /assets/uploads/paper-screen.png
+  - picture: /assets/uploads/Schermata 2020-11-28 alle 15.14.19.png
+  - picture: /assets/uploads/Schermata 2020-11-28 alle 15.12.15.png
+  - {}
+  - {}
 ---
 Project: Luca Toniolo
 
-Year: 2015
+Year: 2015-2020
 
-Client: Paper
+Client: Paper wardrobe
 
-Place: Bassano del Grappa
-
-
-
-
+Place: Verona, Ferrara, Pistoia, Riccione, Fano, Cesena, Padova
