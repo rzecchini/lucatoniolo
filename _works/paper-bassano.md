@@ -20,6 +20,8 @@ images:
   - picture: /assets/uploads/Schermata 2020-11-28 alle 15.12.15.png
   - {}
   - {}
+  - picture: /assets/uploads/Paper_ferrara_4.jpg
+  - picture: /assets/uploads/Paper-ferrara_6.jpg
 ---
 Project: Luca Toniolo
 
@@ -28,3 +30,4 @@ Year: 2015-2020
 Client: Paper wardrobe
 
 Place: Verona, Ferrara, Pistoia, Riccione, Fano, Cesena, Padova
+
