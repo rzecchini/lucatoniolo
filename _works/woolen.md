@@ -1,5 +1,5 @@
 ---
-title: Woolen
+title: Woolen Mill
 category: interior/bar
 layout: default
 poster: /assets/uploads/interno1-910x1280 cover woolen.jpg
@@ -26,4 +26,5 @@ Year: 2020
 Clien: Private
 
 Place: Schio
+
 
