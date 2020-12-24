@@ -2,7 +2,7 @@
 title: Paper wardrobe
 category: interior/retail
 layout: default
-poster: /assets/uploads/PAPERbassanocop.jpg
+poster: /assets/uploads/cover paper.jpg
 home: false
 priority: h
 images:
@@ -30,4 +30,5 @@ Year: 2015-2020
 Client: Paper wardrobe
 
 Place: Verona, Ferrara, Pistoia, Riccione, Fano, Cesena, Padova
+
 
