@@ -14,6 +14,8 @@ images:
   - picture: /assets/uploads/PAPER-BASSANO-DETAIL4.jpg
   - picture: /assets/uploads/Paper_ferrara_7.jpg
   - picture: /assets/uploads/Paper verona 6.jpg
+  - picture: /assets/uploads/IMG_2021.jpg
+  - picture: /assets/uploads/camerino.jpg
 ---
 Project: Luca Toniolo
 
@@ -22,6 +24,7 @@ Year: 2015-2020
 Client: Paper wardrobe
 
 Place: Verona, Ferrara, Pistoia, Riccione, Fano, Cesena, Padova
+
 
 
 
