@@ -6,7 +6,7 @@ title: ' ABOUT'
 Luca Toniolo, Thiene 1985 <br>
 Architecture, Interiors and Research
 
-![null](/assets/uploads/Schermata 2020-12-30 alle 16.53.34.png)
+![null](/assets/uploads/Schermata 2020-12-30 alle 16.55.56.png)
 
 ### Selected Clients:
 
