@@ -4,7 +4,7 @@ category: Interior/club
 layout: default
 poster: /assets/uploads/room-copertina.jpg
 home: false
-priority: l
+priority: o
 images:
   - picture: /assets/uploads/room_2.jpg
   - picture: /assets/uploads/room_3.jpg
@@ -20,3 +20,4 @@ Year: 2016
 Client: Room Food & Drink
 
 Place: Bassano del Grappa 
+
