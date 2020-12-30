@@ -4,7 +4,7 @@ category: interior/retail
 layout: default
 poster: /assets/uploads/copertina-wooden-2.jpg
 home: false
-priority: i
+priority: 'n'
 images:
   - picture: /assets/uploads/IMG_7684.jpg
   - picture: /assets/uploads/wooden_verona_9.jpg
@@ -26,4 +26,5 @@ Year: 2016-2020
 Client: Wooden
 
 Place: Verona, Riccione, Fano, Torino, Modena, Bergamo, Bologna, Cesena, Monza
+
 
