@@ -4,8 +4,7 @@ permalink: /about/
 title: ' ABOUT'
 ---
 Luca Toniolo, Thiene 1985 <br>
-Architecture, Interiors and Research <br>
-Co-Founder of Riviera <br>
+Architecture, Interiors and Research 
 
 ### Selected Clients:
 
@@ -13,7 +12,7 @@ RetroSuperFuture, Mauro Grifoni, Flos, Covert, Gentry Portofino, Stefanie Barth 
 
 ### On-line Press
 
-Novembre Magazine, Living Corriere della sera, Word Architecture News, Elle Decor, L’Officiel Italia, Archello, Divisare, Pig, Haute-Living
+Novembre Magazine, Living Corriere della sera, Word Architecture News, Elle Decor, L’Officiel Italia, Pig, Haute-Living
 
 ### Special Collaborations:
 
