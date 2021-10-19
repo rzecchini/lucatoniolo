@@ -21,6 +21,7 @@ images:
   - picture: /assets/uploads/14.jpeg
   - picture: /assets/uploads/18.jpeg
   - picture: /assets/uploads/15.jpg
+  - picture: /assets/uploads/1.jpeg
 ---
 Project: Luca Toniolo
 
@@ -29,4 +30,5 @@ Year: 2021
 Client: Private
 
 Place: Bassano Del Grappa
+
 
