@@ -4,7 +4,7 @@ category: interior/bakery
 layout: default
 poster: /assets/uploads/Moretti_cover_lucatoniolo.jpg
 home: true
-priority: c
+priority: b
 images:
   - picture: /assets/uploads/2.jpeg
   - picture: /assets/uploads/3.jpeg
@@ -29,3 +29,4 @@ Year: 2021
 Client: Private
 
 Place: Bassano Del Grappa
+
