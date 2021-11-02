@@ -21,6 +21,7 @@ images:
   - picture: /assets/uploads/lucatoniolo-441-esterno26.jpg
   - picture: /assets/uploads/lucatoniolo-441-detail4.jpg
   - picture: /assets/uploads/Schermata 2021-03-30 alle 16.06.32.png
+  - picture: /assets/uploads/unnamed.jpg
 ---
 Project: Luca Toniolo
 
@@ -29,6 +30,7 @@ Year: 2018
 Client: Private
 
 Place: Marostica
+
 
 
 
