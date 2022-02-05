@@ -8,7 +8,7 @@ Luca Toniolo, Thiene 1985 <br>
 
 ### Selected Clients:
 
-RetroSuperFuture, Mauro Grifoni, Flos, Covert, Gentry Portofino, Stefanie Barth & Carina Frey, Olmar&Mirta
+RetroSuperFuture, Mauro Grifoni, Flos, Covert, Haikure, Gentry Portofino, Stefanie Barth & Carina Frey, Olmar&Mirta Group
 
 ### On-line Press
 
