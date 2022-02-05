@@ -11,7 +11,6 @@ images:
   - picture: /assets/uploads/2elkbakery_1_lucatoniolo.jpg
   - picture: /assets/uploads/11elkbakery_1_lucatoniolo.jpg
   - picture: /assets/uploads/7elkbakery_1_lucatoniolo.jpg
-  - picture: /assets/uploads/7elkbakery_1_lucatoniolo.jpg
   - picture: /assets/uploads/5elkbakery_1_lucatoniolo.jpg
   - picture: /assets/uploads/9elkbakery_1_lucatoniolo.jpg
   - picture: /assets/uploads/10-elkbakery_1_lucatoniolo.jpg
@@ -24,3 +23,4 @@ Year: 2022
 Client: Elk Bakery
 
 Place: Verona
+
