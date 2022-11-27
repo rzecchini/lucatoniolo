@@ -11,8 +11,14 @@ images:
   - picture: /assets/uploads/3-.jpg
   - picture: /assets/uploads/4-.jpg
   - picture: /assets/uploads/5-.jpg
-  - picture: /assets/uploads/6-.jpg
   - picture: /assets/uploads/7-.jpg
   - picture: /assets/uploads/8-.jpg
+  - picture: /assets/uploads/6luca.jpg
 ---
-null
+Project: Luca Toniolo
+
+Year: 2022
+
+Client: Private
+
+Place: Milano
