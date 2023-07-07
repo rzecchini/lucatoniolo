@@ -4,7 +4,7 @@ category: interior / pizza
 layout: default
 poster: /assets/uploads/interno1-910x1280 cover facci.jpg
 home: true
-priority: a
+priority: b
 images:
   - picture: /assets/uploads/1_Studiolucatoniolo_faccipizza_1.jpg
   - picture: /assets/uploads/1_Studiolucatoniolo_faccipizza_3.jpg
@@ -20,6 +20,7 @@ Year: 2019
 Clien: Facci Pizza
 
 Place: Verona
+
 
 
 
