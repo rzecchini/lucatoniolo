@@ -1,29 +1,28 @@
 ---
 title: House 0
-category: architecture / interiors
+category: House
 layout: default
-poster: /assets/uploads/House0_cover_lucatoniolo.jpg
+poster: /assets/uploads/Peroncasa1.JPG
 home: true
 priority: a
 images:
-  - picture: /assets/uploads/House0_3_lucatoniolo.JPG
-  - picture: /assets/uploads/House0_6_lucatoniolo.jpg
-  - picture: /assets/uploads/House0_1_lucatoniolo.jpg
-  - picture: /assets/uploads/House0_2_lucatoniolo.jpg
-  - picture: /assets/uploads/House0_8_lucatoniolo.jpg
-  - picture: /assets/uploads/House0_10_lucatoniolo.jpg
-  - picture: /assets/uploads/House0_7_lucatoniolo.jpg
-  - picture: /assets/uploads/House0_5_lucatoniolo.jpg
-  - picture: /assets/uploads/House0_12_lucatoniolo.jpg
+  - picture: /assets/uploads/Peroncasa1.JPG
+  - picture: /assets/uploads/Peroncasa2.jpg
+  - picture: /assets/uploads/Peroncasa3.jpg
+  - picture: /assets/uploads/Peroncasa4.jpg
+  - picture: /assets/uploads/Peroncasa9.JPG
+  - picture: /assets/uploads/Peroncasa10.JPG
+  - picture: /assets/uploads/Peroncasa11.jpg
+  - picture: /assets/uploads/Peroncasa12.jpeg
+  - picture: /assets/uploads/Peroncasa5.jpeg
+  - picture: /assets/uploads/Peroncasa6.JPG
+  - picture: /assets/uploads/Peroncasa7.JPG
+  - picture: /assets/uploads/Peroncasa8.JPG
 ---
 Project: Luca Toniolo
 
-Year: 2019
+Year: 2023
 
 Clien: Private
 
 Place: Thiene
-
-
-
-
