@@ -4,7 +4,7 @@ category: Outdoor - garden
 layout: default
 poster: /assets/uploads/Venezia-lucatoniolocover.jpg
 home: true
-priority: b
+priority: a
 images:
   - picture: /assets/uploads/Venezia-lucatoniolo7.jpg
   - picture: /assets/uploads/Venezia-lucatoniolo5.jpg
@@ -24,4 +24,5 @@ Year: 2020
 Client: Private
 
 Place: Venezia
+
 
