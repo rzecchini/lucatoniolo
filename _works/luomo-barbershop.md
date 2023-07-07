@@ -4,7 +4,7 @@ category: interior/barbershop
 layout: default
 poster: /assets/uploads/l'uomo_cover_lucatoniolo.jpg
 home: true
-priority: a
+priority: b
 images:
   - picture: /assets/uploads/luomobarbershop-lucatoniolo-2.jpeg
   - picture: /assets/uploads/luomobarbershop-lucatoniolo-3.jpeg
@@ -22,3 +22,4 @@ Year: 2021
 Client: Private
 
 Place: Schio
+
