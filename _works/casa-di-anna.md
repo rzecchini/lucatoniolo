@@ -3,7 +3,7 @@ title: Casa di Anna
 category: house/interior
 layout: default
 poster: /assets/uploads/Casaannacarrarocover.jpg
-home: false
+home: true
 priority: a
 images:
   - picture: /assets/uploads/Casaannacarrarocover.jpg
@@ -19,3 +19,4 @@ Year: 2023
 Clien: Private
 
 Place: MIlano
+
