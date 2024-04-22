@@ -3,7 +3,7 @@ title: Appartamento a Firenze
 category: house/interior
 layout: default
 poster: /assets/uploads/Pani3cover.JPG
-home: false
+home: true
 priority: a
 images:
   - picture: /assets/uploads/Pani3cover.JPG
@@ -30,5 +30,6 @@ Year: 2023
 Clien: Private
 
 Place: Firenze
+
 
 
