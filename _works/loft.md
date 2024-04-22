@@ -3,7 +3,7 @@ title: 'Loft '
 category: architecture - interiors
 layout: default
 poster: /assets/uploads/Loftcover_lucatoniolo.jpg
-home: true
+home: false
 priority: c
 images:
   - picture: /assets/uploads/loftverona2.jpg
@@ -21,4 +21,5 @@ Year: 2020
 Clien: Private
 
 Place: Verona
+
 
