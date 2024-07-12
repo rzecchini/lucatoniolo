@@ -7,10 +7,9 @@ home: true
 priority: a
 images:
   - picture: /assets/uploads/Cadememi_2.jpg
-  - picture: /assets/uploads/Cadememi_1.jpg
   - picture: /assets/uploads/03_cadememi_studios_mod.jpg
+  - picture: /assets/uploads/Cadememi_1.jpg
   - picture: /assets/uploads/Cadememi_4.jpg
-  - picture: /assets/uploads/Cadememi_6.jpg
   - picture: /assets/uploads/Cadememi_6.jpg
   - picture: /assets/uploads/Cadememi_9.jpg
   - picture: /assets/uploads/Cadememi_10.jpg
@@ -30,3 +29,4 @@ Client: Ca de Memi
 Place: Piombino Dese
 
 Photo 1-2-3 @vanigliacooking
+
