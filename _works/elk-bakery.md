@@ -3,7 +3,7 @@ title: 'Elk Bakery '
 category: interior/bakery
 layout: default
 poster: /assets/uploads/elkcover lucatoniolo.jpg
-home: true
+home: false
 priority: b
 images:
   - picture: /assets/uploads/6elkbakery_1_lucatoniolo.jpg
@@ -25,5 +25,6 @@ Year: 2022
 Client: Elk Bakery
 
 Place: Verona
+
 
 
