@@ -3,7 +3,7 @@ title: CasaRosa
 category: interior/house
 layout: default
 poster: /assets/uploads/CoverMerzi.JPG
-home: true
+home: false
 priority: a
 images:
   - picture: /assets/uploads/Casamerzi2.JPG
@@ -20,3 +20,4 @@ Year: 2023
 Client: Private
 
 Place: Verona
+
