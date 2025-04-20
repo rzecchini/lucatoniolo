@@ -3,7 +3,7 @@ title: COVERT SS19
 category: interior/set up
 layout: default
 poster: /assets/uploads/Covert Showroom luca toniolocopertina.jpg
-home: true
+home: false
 priority: c
 images:
   - picture: /assets/uploads/Covert Showroom luca toniolo1.jpg
@@ -22,6 +22,7 @@ Year: 2018
 Client: Covert - Mauro Grifoni
 
 Place: Milano
+
 
 
 
