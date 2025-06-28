@@ -8,11 +8,11 @@ Luca Toniolo, Thiene 1985 <br>
 
 ### Selected Clients:
 
-RetroSuperFuture, Mauro Grifoni, Flos, Covert, Haikure, Gentry Portofino, Stefanie Barth & Carina Frey, Olmar&Mirta Group
+RetroSuperFuture, Mauro Grifoni, Flos, Covert, Haikure, Gentry Portofino, Stefanie Barth & Carina Frey, Olmar&Mirta Group, Pdf, Parsel System
 
 ### On-line Press
 
-GQ Italia, Novembre Magazine, Living Corriere della sera, Word Architecture News, Elle Decor, L’Officiel Italia, Pig, Haute-Living
+GQ Italia, Novembre Magazine, Living Corriere della sera, Word Architecture News, Elle Decor, L’Officiel Italia, Pig, Haute-Living, 
 
 for all inquiries: <br> info(at)lucatoniolo(dot)com <br> a.toniololuca(at)gmail(dot)com <br> \+39 3407909049
 
