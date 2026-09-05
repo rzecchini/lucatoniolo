@@ -19,3 +19,4 @@ Year: 2022 - ongoing
 Client: Parsel System
 
 Place: Los Angeles - Paris - Tokyo - Seul
+
