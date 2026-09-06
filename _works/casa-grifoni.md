@@ -1,6 +1,6 @@
 ---
 title: Casa Grifoni
-category: a
+category: interior/showroom
 layout: default
 poster: /assets/uploads/12.jpg
 home: true
@@ -15,4 +15,10 @@ images:
   - picture: /assets/uploads/7.jpg
   - picture: /assets/uploads/12.jpg
 ---
-null
+Project: Luca Toniolo
+
+Year: 2025
+
+Client: Grifoni
+
+Place: Milano
